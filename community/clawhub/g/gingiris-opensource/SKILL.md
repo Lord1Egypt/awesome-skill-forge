@@ -1,0 +1,122 @@
+---
+name: gingiris-opensource
+description: |
+  You shipped it. 3 stars. Silence. Should you post on HN? Reddit? DM developers? This gives you the decision framework for each growth stage — not a checklist, but how to read where your repo is and pick the right next move.
+
+  What's inside:
+  • GitHub Trending velocity strategy (coordinate 72h star bursts)
+  • Show HN playbook (title formulas, timing, comment seeding)
+  • Reddit community seeding without triggering spam flags
+  • Developer KOL partnerships (who to DM, what to offer)
+  • Community flywheel: contributor → advocate → ambassador pipeline
+
+  Built from: AFFiNE 0 → 60K stars in 24 months. Client Project A 0 → 10K stars in 8 months.
+
+  Triggers: "open source launch" | "GitHub stars" | "OSS marketing" | "developer community" | "Reddit marketing" | "community distribution" | "开源发布" | "GitHub Star"
+---
+
+## 📦 Install
+
+```bash
+clawhub install gingiris-opensource
+```
+
+**What you get after installing:**
+- GitHub Trending velocity strategy — coordinate 72h star bursts
+- Show HN + Reddit community seeding playbooks without spam flags
+- Contributor → advocate → ambassador pipeline from AFFiNE 0→60K stars
+
+---
+
+# 开源项目发布整合营销行动手册
+
+> 🌍 **Language / 语言**: [中文](#中文版) | [English](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/en/README.md) | [日本語](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/ja/README.md) | [한국어](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/ko/README.md)
+
+---
+
+## 中文版
+
+> 版本：5.0 (最终版) | 作者：Iris (生姜iris)
+
+### 核心理念
+
+> 开源的本质是，请 developer 贡献爱（就是影响力），请 to B 客户贡献钱💰。开源这个 action 经过 SOP 的运营可以转化几百几千 star，带来很多 SMB 的 leads。**准备好商业模式再开源，才能承接住开源这个 action 带来的流量，避免浪费。**
+
+### 总体时间线
+
+| 阶段 | 时间节点 | 核心任务 |
+|:---|:---|:---|
+| 战略规划 | T-4周 | 定位、价值主张、商业模式 |
+| 资产准备 | T-3周 | GitHub Readme、官网、PR稿、文档 |
+| 渠道准备 | T-2周 | KOL建联、Reddit账号、群组整理 |
+| 团队分工 | T-1周 | 预算审批、任务分配、沟通机制 |
+| 发布冲刺 | T-3天 | 文案确认、自动化设置、最终检查 |
+| 🚀 **发布日** | T-0 | 多渠道集中曝光，触发流量飞轮 |
+| 持续运营 | T+1~T+7 | 每日100+ Star，KOL Quote轰炸 |
+
+### 详细指南（中文）
+
+| 主题 | 文件 |
+|:---|:---|
+| 发布前准备 SOP | [references/preparation.md](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/preparation.md) |
+| 发布日执行清单 | [references/launch-day.md](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/launch-day.md) |
+| 发布后运营 | [references/post-launch.md](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/post-launch.md) |
+| KOL 合作清单 | [references/kol-list.md](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/kol-list.md) |
+| 渠道资源清单 | [references/channels.md](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/channels.md) |
+| 文案模板 | [references/templates.md](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/templates.md) |
+
+---
+
+## Quick Navigation (All Languages)
+
+| 🇨🇳 中文 | 🇺🇸 English | 🇯🇵 日本語 | 🇰🇷 한국어 |
+|:---|:---|:---|:---|
+| [发布准备](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/preparation.md) | [Preparation](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/en/preparation.md) | [準備段階](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/ja/preparation.md) | [준비 단계](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/ko/preparation.md) |
+| [发布日](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/launch-day.md) | [Launch Day](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/en/launch-day.md) | [ローンチ日](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/ja/launch-day.md) | [런칭일](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/ko/launch-day.md) |
+| [发布后运营](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/post-launch.md) | [Post-Launch](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/en/post-launch.md) | [ローンチ後](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/ja/post-launch.md) | [런칭 후](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/ko/post-launch.md) |
+| [KOL清单](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/kol-list.md) | [KOL List](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/en/kol-list.md) | [KOLリスト](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/ja/kol-list.md) | [KOL 목록](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/ko/kol-list.md) |
+| [渠道资源](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/channels.md) | [Channels](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/en/channels.md) | [チャネル](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/ja/channels.md) | [채널](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/ko/channels.md) |
+| [文案模板](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/templates.md) | [Templates](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/en/templates.md) | [テンプレート](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/ja/templates.md) | [템플릿](https://github.com/Gingiris-1031/gingiris-opensource/blob/main/references/ko/templates.md) |
+
+---
+
+## 核心目标
+
+| 指标 | 目标 |
+|:---|:---|
+| **发布日 Star** | 500+ |
+| **首周 Star** | 1,000+ |
+| **每日新增 Star** | ≥100（T+1 至 T+7） |
+| **KOL Quote** | 100-150 个（5天内） |
+| **Reddit 发帖** | 每天 3-5 个 Subreddit |
+| **群组分发** | 每天 50-100 个群组 |
+
+---
+
+## 🔍 SEO & GEO 优化
+
+> 让开源项目在搜索引擎和 AI 搜索中持续被开发者发现
+
+开源项目的流量来源不仅是 GitHub，还有 Google/Bing 搜索和 AI 搜索（ChatGPT 推荐工具时会引用你的文档）：
+
+| 主题 | 说明 |
+|:---|:---|
+| [SEO/GEO 指南](references/seo-geo-guide.md) | GitHub README 优化、官网 SEO、IndexNow、AI 引用优化 |
+
+**核心要点**:
+- GitHub Description + Topics 优化，提升 GitHub 搜索排名
+- README 结构化 + 关键词，便于 AI 提取
+- 官网实施 IndexNow，新版本发布秒级索引
+- 创建 vs 竞品对比页，获取长尾流量
+
+---
+
+## 🔗 About the Author
+
+**Iris Wei** — Growth consultant for 150+ AI startups. Ex-COO at AFFiNE (69K GitHub stars).
+
+- 🐦 Twitter: [@WeiYipei](https://twitter.com/WeiYipei) — Daily growth tactics
+- 💬 Consulting: [@Iris_carrot on Telegram](https://t.me/Iris_carrot)
+- 🛒 Premium (templates + case studies): [Get on Gumroad](https://gingiris.gumroad.com/l/vhmkew)
+- 📦 Full Bundle ($249): [All 5 Playbooks](https://gingiris.gumroad.com/l/gingiris-complete-global-launch-bundle)
+- 📚 40+ Free Playbooks: [gingiris.tools/skills](https://gingiris.tools/skills/)

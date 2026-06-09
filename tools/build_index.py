@@ -9,6 +9,7 @@ import json
 import os
 import re
 import sys
+from pathlib import Path
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW_JSON = os.path.join(ROOT, "data", "skills_raw.json")
@@ -16,6 +17,7 @@ OUTPUT_INDEX = os.path.join(ROOT, "index.json")
 SKILLS_DIR = os.path.join(ROOT, "skills")
 OPTIONAL_DIR = os.path.join(ROOT, "optional-skills")
 LORD1EGYPT_DIR = os.path.join(ROOT, "lord1egypt-skills")
+COMMUNITY_DIR = os.path.join(ROOT, "community")
 
 # Source display names
 SOURCE_LABELS = {
@@ -111,6 +113,19 @@ def scan_local_skills(directory, default_source):
 
     return entries
 
+def scan_community_skills():
+    """Scan community/ dir and return {name: localPath} for downloaded skills."""
+    mapping = {}
+    if not os.path.isdir(COMMUNITY_DIR):
+        return mapping
+    for skill_md in sorted(Path(COMMUNITY_DIR).rglob("SKILL.md")):
+        fm = parse_skill_md_frontmatter(str(skill_md))
+        name = fm.get("name", "")
+        if name:
+            mapping[name] = str(skill_md.parent.relative_to(ROOT))
+    return mapping
+
+
 def transform_raw_entry(raw):
     """Convert a raw Hermes API entry to universal format."""
     source = raw.get("source", "community")
@@ -165,15 +180,17 @@ def main():
     builtin_entries = scan_local_skills(SKILLS_DIR, "built-in")
     optional_entries = scan_local_skills(OPTIONAL_DIR, "optional")
     lord1egypt_entries = scan_local_skills(LORD1EGYPT_DIR, "lord1egypt")
+    community_map = scan_community_skills()  # {name: localPath}
 
     for e in builtin_entries + optional_entries + lord1egypt_entries:
         local_names.add(e["name"])
 
-    print(f"  Built-in:  {len(builtin_entries)}")
-    print(f"  Optional:  {len(optional_entries)}")
-    print(f"  Lord1Egypt:{len(lord1egypt_entries)}")
+    print(f"  Built-in:    {len(builtin_entries)}")
+    print(f"  Optional:    {len(optional_entries)}")
+    print(f"  Lord1Egypt:  {len(lord1egypt_entries)}")
+    print(f"  Community:   {len(community_map)} downloaded")
 
-    # Step 3: Transform all raw entries (skip ones we have locally)
+    # Step 3: Transform all raw entries, marking downloaded community ones
     print("\nTransforming raw API entries...")
     community_entries = []
     skipped = 0
@@ -183,8 +200,11 @@ def main():
             skipped += 1
             continue
         entry = transform_raw_entry(raw)
+        if name in community_map:
+            entry["hasContent"] = True
+            entry["localPath"] = community_map[name]
         community_entries.append(entry)
-    print(f"  Community entries: {len(community_entries)} (skipped {skipped} already local)")
+    print(f"  Community entries: {len(community_entries)} ({sum(1 for e in community_entries if e.get('hasContent'))} with content, skipped {skipped} already local)")
 
     # Step 4: Merge — lord1egypt first, then official, then community
     all_entries = lord1egypt_entries + builtin_entries + optional_entries + community_entries

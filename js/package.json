@@ -1,6 +1,6 @@
 {
   "name": "awesome-skill-forge",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "90,000+ universal AI agent skills — Claude Code, OpenAI Agents, Hermes, AutoGen, LangChain, any LLM",
   "main": "src/index.js",
   "types": "src/index.d.ts",

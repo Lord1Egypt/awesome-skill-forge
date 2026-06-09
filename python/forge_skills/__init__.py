@@ -19,5 +19,5 @@ Usage:
 
 from .loader import load, search, list_skills, categories, sources, stats, Skill
 
-__version__ = "1.0.3"
+__version__ = "1.0.4"
 __all__ = ["load", "search", "list_skills", "categories", "sources", "stats", "Skill"]
