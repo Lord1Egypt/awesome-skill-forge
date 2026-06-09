@@ -1,12 +1,12 @@
 [build-system]
 requires = ["setuptools>=68", "wheel"]
-build-backend = "setuptools.backends.legacy:build"
+build-backend = "setuptools.build_meta"
 
 [project]
-name = "forge-skills"
+name = "awesome-skill-forge"
 version = "1.0.1"
 description = "90,000+ universal AI agent skills — works with Claude Code, OpenAI Agents, Hermes, AutoGen, LangChain, and any LLM"
-readme = "../README.md"
+readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "Lord1Egypt", email = "akim.221992@gmail.com" }]
 keywords = ["ai", "agents", "skills", "claude", "openai", "llm", "hermes", "langchain", "autogen", "prompt"]
