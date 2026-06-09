@@ -1,0 +1,5567 @@
+{
+  "registry": "awesome-skill-forge",
+  "version": "1.0.1",
+  "description": "Universal AI agent skill registry — Hermes-compatible SKILL.md format",
+  "homepage": "https://github.com/Lord1Egypt/awesome-skill-forge",
+  "author": "Lord1Egypt",
+  "generated_at": "2026-06-09T20:04:18.374776+00:00",
+  "total": 161,
+  "by_category": {
+    "creative": 25,
+    "mlops": 25,
+    "research": 16,
+    "productivity": 15,
+    "software-development": 12,
+    "autonomous-ai-agents": 9,
+    "finance": 8,
+    "github": 6,
+    "devops": 6,
+    "apple": 5,
+    "blockchain": 5,
+    "media": 4,
+    "security": 4,
+    "gaming": 3,
+    "ai-agents": 3,
+    "email": 2,
+    "mcp": 2,
+    "health": 2,
+    "red-teaming": 1,
+    "data-science": 1,
+    "note-taking": 1,
+    "smart-home": 1,
+    "social-media": 1,
+    "dogfood": 1,
+    "communication": 1,
+    "migration": 1,
+    "software-dev": 1
+  },
+  "by_source": {
+    "optional": 89,
+    "built-in": 65,
+    "lord1egypt": 7
+  },
+  "skills": [
+    {
+      "name": "airtable",
+      "description": "Airtable REST API via curl. Records CRUD, filters, upserts.",
+      "version": "1.1.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "Airtable",
+        "Productivity",
+        "Database",
+        "API"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/airtable",
+      "install_cmd": "awesome-skill-forge install airtable",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "apple-notes",
+      "description": "Manage Apple Notes via memo CLI: create, search, edit.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "apple",
+      "tags": [
+        "Notes",
+        "Apple",
+        "macOS",
+        "note-taking"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/apple-notes",
+      "install_cmd": "awesome-skill-forge install apple-notes",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "apple-reminders",
+      "description": "Apple Reminders via remindctl: add, list, complete.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "apple",
+      "tags": [
+        "Reminders",
+        "tasks",
+        "todo",
+        "macOS",
+        "Apple"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/apple-reminders",
+      "install_cmd": "awesome-skill-forge install apple-reminders",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "architecture-diagram",
+      "description": "Dark-themed SVG architecture/cloud/infra diagrams as HTML.",
+      "version": "1.0.0",
+      "author": "Cocoon AI (hello@cocoon-ai.com), ported by Hermes Agent",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "architecture",
+        "diagrams",
+        "SVG",
+        "HTML",
+        "visualization",
+        "infrastructure",
+        "cloud"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/architecture-diagram",
+      "install_cmd": "awesome-skill-forge install architecture-diagram",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "arxiv",
+      "description": "Search arXiv papers by keyword, author, category, or ID.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "research",
+      "tags": [
+        "Research",
+        "Arxiv",
+        "Papers",
+        "Academic",
+        "Science",
+        "API"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/arxiv",
+      "install_cmd": "awesome-skill-forge install arxiv",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "ascii-art",
+      "description": "ASCII art: pyfiglet, cowsay, boxes, image-to-ascii.",
+      "version": "4.0.0",
+      "author": "0xbyt4, Hermes Agent",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "ASCII",
+        "Art",
+        "Banners",
+        "Creative",
+        "Unicode",
+        "Text-Art",
+        "pyfiglet",
+        "figlet",
+        "cowsay",
+        "boxes"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/ascii-art",
+      "install_cmd": "awesome-skill-forge install ascii-art",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "ascii-video",
+      "description": "ASCII video: convert video/audio to colored ASCII MP4/GIF.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/ascii-video",
+      "install_cmd": "awesome-skill-forge install ascii-video",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "baoyu-infographic",
+      "description": "Infographics: 21 layouts x 21 styles (信息图, 可视化).",
+      "version": "1.56.1",
+      "author": "宝玉 (JimLiu)",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "infographic",
+        "visual-summary",
+        "creative",
+        "image-generation"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/baoyu-infographic",
+      "install_cmd": "awesome-skill-forge install baoyu-infographic",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "blogwatcher",
+      "description": "Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool.",
+      "version": "2.0.0",
+      "author": "JulienTant (fork of Hyaxia/blogwatcher)",
+      "license": "MIT",
+      "category": "research",
+      "tags": [
+        "RSS",
+        "Blogs",
+        "Feed-Reader",
+        "Monitoring"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/blogwatcher",
+      "install_cmd": "awesome-skill-forge install blogwatcher",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "claude-code",
+      "description": "Delegate coding to Claude Code CLI (features, PRs).",
+      "version": "2.2.0",
+      "author": "Hermes Agent + Teknium",
+      "license": "MIT",
+      "category": "autonomous-ai-agents",
+      "tags": [
+        "Coding-Agent",
+        "Claude",
+        "Anthropic",
+        "Code-Review",
+        "Refactoring",
+        "PTY",
+        "Automation"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/claude-code",
+      "install_cmd": "awesome-skill-forge install claude-code",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "claude-design",
+      "description": "Design one-off HTML artifacts (landing, deck, prototype).",
+      "version": "1.0.0",
+      "author": "BadTechBandit",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "design",
+        "html",
+        "prototype",
+        "ux",
+        "ui",
+        "creative",
+        "artifact",
+        "deck",
+        "motion",
+        "design-system"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/claude-design",
+      "install_cmd": "awesome-skill-forge install claude-design",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "codebase-inspection",
+      "description": "Inspect codebases w/ pygount: LOC, languages, ratios.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "github",
+      "tags": [
+        "LOC",
+        "Code Analysis",
+        "pygount",
+        "Codebase",
+        "Metrics",
+        "Repository"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/codebase-inspection",
+      "install_cmd": "awesome-skill-forge install codebase-inspection",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "codex",
+      "description": "Delegate coding to OpenAI Codex CLI (features, PRs).",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "autonomous-ai-agents",
+      "tags": [
+        "Coding-Agent",
+        "Codex",
+        "OpenAI",
+        "Code-Review",
+        "Refactoring"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/codex",
+      "install_cmd": "awesome-skill-forge install codex",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "comfyui",
+      "description": "Generate images, video, and audio with ComfyUI — install, launch, manage nodes/models, run workflows with parameter injection. Uses the official comfy-cli for lifecycle and direct REST/WebSocket API for execution.",
+      "version": "5.1.0",
+      "author": [
+        "kshitijk4poor",
+        "alt-glitch",
+        "purzbeats"
+      ],
+      "license": "MIT",
+      "category": "creative",
+      "tags": [],
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/comfyui",
+      "install_cmd": "awesome-skill-forge install comfyui",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "design-md",
+      "description": "Author/validate/export Google's DESIGN.md token spec files.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "design",
+        "design-system",
+        "tokens",
+        "ui",
+        "accessibility",
+        "wcag",
+        "tailwind",
+        "dtcg",
+        "google"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/design-md",
+      "install_cmd": "awesome-skill-forge install design-md",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "excalidraw",
+      "description": "Hand-drawn Excalidraw JSON diagrams (arch, flow, seq).",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "Excalidraw",
+        "Diagrams",
+        "Flowcharts",
+        "Architecture",
+        "Visualization",
+        "JSON"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/excalidraw",
+      "install_cmd": "awesome-skill-forge install excalidraw",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "findmy",
+      "description": "Track Apple devices/AirTags via FindMy.app on macOS.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "apple",
+      "tags": [
+        "FindMy",
+        "AirTag",
+        "location",
+        "tracking",
+        "macOS",
+        "Apple"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/findmy",
+      "install_cmd": "awesome-skill-forge install findmy",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "gif-search",
+      "description": "Search/download GIFs from Tenor via curl + jq.",
+      "version": "1.1.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "media",
+      "tags": [
+        "GIF",
+        "Media",
+        "Search",
+        "Tenor",
+        "API"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/gif-search",
+      "install_cmd": "awesome-skill-forge install gif-search",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "github-auth",
+      "description": "GitHub auth setup: HTTPS tokens, SSH keys, gh CLI login.",
+      "version": "1.1.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "github",
+      "tags": [
+        "GitHub",
+        "Authentication",
+        "Git",
+        "gh-cli",
+        "SSH",
+        "Setup"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/github-auth",
+      "install_cmd": "awesome-skill-forge install github-auth",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "github-code-review",
+      "description": "Review PRs: diffs, inline comments via gh or REST.",
+      "version": "1.1.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "github",
+      "tags": [
+        "GitHub",
+        "Code-Review",
+        "Pull-Requests",
+        "Git",
+        "Quality"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/github-code-review",
+      "install_cmd": "awesome-skill-forge install github-code-review",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "github-issues",
+      "description": "Create, triage, label, assign GitHub issues via gh or REST.",
+      "version": "1.1.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "github",
+      "tags": [
+        "GitHub",
+        "Issues",
+        "Project-Management",
+        "Bug-Tracking",
+        "Triage"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/github-issues",
+      "install_cmd": "awesome-skill-forge install github-issues",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "github-pr-workflow",
+      "description": "GitHub PR lifecycle: branch, commit, open, CI, merge.",
+      "version": "1.1.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "github",
+      "tags": [
+        "GitHub",
+        "Pull-Requests",
+        "CI/CD",
+        "Git",
+        "Automation",
+        "Merge"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/github-pr-workflow",
+      "install_cmd": "awesome-skill-forge install github-pr-workflow",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "github-repo-management",
+      "description": "Clone/create/fork repos; manage remotes, releases.",
+      "version": "1.1.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "github",
+      "tags": [
+        "GitHub",
+        "Repositories",
+        "Git",
+        "Releases",
+        "Secrets",
+        "Configuration"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/github-repo-management",
+      "install_cmd": "awesome-skill-forge install github-repo-management",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "godmode",
+      "description": "Jailbreak LLMs: Parseltongue, GODMODE, ULTRAPLINIAN.",
+      "version": "1.0.0",
+      "author": "Hermes Agent + Teknium",
+      "license": "MIT",
+      "category": "red-teaming",
+      "tags": [
+        "jailbreak",
+        "red-teaming",
+        "G0DM0D3",
+        "Parseltongue",
+        "GODMODE",
+        "uncensoring",
+        "safety-bypass",
+        "prompt-engineering",
+        "L1B3RT4S"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/godmode",
+      "install_cmd": "awesome-skill-forge install godmode",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "google-workspace",
+      "description": "Gmail, Calendar, Drive, Docs, Sheets via gws CLI or Python.",
+      "version": "1.1.0",
+      "author": "Nous Research",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "Google",
+        "Gmail",
+        "Calendar",
+        "Drive",
+        "Sheets",
+        "Docs",
+        "Contacts",
+        "Email",
+        "OAuth"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/google-workspace",
+      "install_cmd": "awesome-skill-forge install google-workspace",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "heartmula",
+      "description": "HeartMuLa: Suno-like song generation from lyrics + tags.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "media",
+      "tags": [
+        "music",
+        "audio",
+        "generation",
+        "ai",
+        "heartmula",
+        "heartcodec",
+        "lyrics",
+        "songs"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/heartmula",
+      "install_cmd": "awesome-skill-forge install heartmula",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "hermes-agent",
+      "description": "Configure, extend, or contribute to Hermes Agent.",
+      "version": "2.1.0",
+      "author": "Hermes Agent + Teknium",
+      "license": "MIT",
+      "category": "autonomous-ai-agents",
+      "tags": [
+        "hermes",
+        "setup",
+        "configuration",
+        "multi-agent",
+        "spawning",
+        "cli",
+        "gateway",
+        "development"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/hermes-agent",
+      "install_cmd": "awesome-skill-forge install hermes-agent",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "hermes-agent-skill-authoring",
+      "description": "Author in-repo SKILL.md: frontmatter, validator, structure.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "software-development",
+      "tags": [
+        "skills",
+        "authoring",
+        "hermes-agent",
+        "conventions",
+        "skill-md"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/hermes-agent-skill-authoring",
+      "install_cmd": "awesome-skill-forge install hermes-agent-skill-authoring",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "himalaya",
+      "description": "Himalaya CLI: IMAP/SMTP email from terminal.",
+      "version": "1.1.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "email",
+      "tags": [
+        "Email",
+        "IMAP",
+        "SMTP",
+        "CLI",
+        "Communication"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/himalaya",
+      "install_cmd": "awesome-skill-forge install himalaya",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "huggingface-hub",
+      "description": "HuggingFace hf CLI: search/download/upload models, datasets.",
+      "version": "1.0.0",
+      "author": "Hugging Face",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "huggingface",
+        "hf",
+        "models",
+        "datasets",
+        "hub",
+        "mlops"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/huggingface-hub",
+      "install_cmd": "awesome-skill-forge install huggingface-hub",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "humanizer",
+      "description": "Humanize text: strip AI-isms and add real voice.",
+      "version": "2.5.1",
+      "author": "Siqi Chen (@blader, https://github.com/blader/humanizer), ported by Hermes Agent",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "writing",
+        "editing",
+        "humanize",
+        "anti-ai-slop",
+        "voice",
+        "prose",
+        "text"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/humanizer",
+      "install_cmd": "awesome-skill-forge install humanizer",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "imessage",
+      "description": "Send and receive iMessages/SMS via the imsg CLI on macOS.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "apple",
+      "tags": [
+        "iMessage",
+        "SMS",
+        "messaging",
+        "macOS",
+        "Apple"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/imessage",
+      "install_cmd": "awesome-skill-forge install imessage",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "jupyter-live-kernel",
+      "description": "Iterative Python via live Jupyter kernel (hamelnb).",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "data-science",
+      "tags": [
+        "jupyter",
+        "notebook",
+        "repl",
+        "data-science",
+        "exploration",
+        "iterative"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/jupyter-live-kernel",
+      "install_cmd": "awesome-skill-forge install jupyter-live-kernel",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "kanban-worker",
+      "description": "Pitfalls, examples, and edge cases for Hermes Kanban workers. The lifecycle itself is auto-injected into every worker's system prompt as KANBAN_GUIDANCE (from agent/prompt_builder.py); this skill is what you load when you want deeper detail on specific scenarios.",
+      "version": "2.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "devops",
+      "tags": [
+        "kanban",
+        "multi-agent",
+        "collaboration",
+        "workflow",
+        "pitfalls"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/kanban-worker",
+      "install_cmd": "awesome-skill-forge install kanban-worker",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "llm-wiki",
+      "description": "Karpathy's LLM Wiki: build/query interlinked markdown KB.",
+      "version": "2.1.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "research",
+      "tags": [
+        "wiki",
+        "knowledge-base",
+        "research",
+        "notes",
+        "markdown",
+        "rag-alternative"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/llm-wiki",
+      "install_cmd": "awesome-skill-forge install llm-wiki",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "macos-computer-use",
+      "description": "|",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "apple",
+      "tags": [
+        "computer-use",
+        "macos",
+        "desktop",
+        "automation",
+        "gui"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/macos-computer-use",
+      "install_cmd": "awesome-skill-forge install macos-computer-use",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "manim-video",
+      "description": "Manim CE animations: 3Blue1Brown math/algo videos.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/manim-video",
+      "install_cmd": "awesome-skill-forge install manim-video",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "maps",
+      "description": "Geocode, POIs, routes, timezones via OpenStreetMap/OSRM.",
+      "version": "1.2.0",
+      "author": "Mibayy",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "maps",
+        "geocoding",
+        "places",
+        "routing",
+        "distance",
+        "directions",
+        "nearby",
+        "location",
+        "openstreetmap",
+        "nominatim",
+        "overpass",
+        "osrm"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/maps",
+      "install_cmd": "awesome-skill-forge install maps",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "nano-pdf",
+      "description": "Edit PDF text/typos/titles via nano-pdf CLI (NL prompts).",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "PDF",
+        "Documents",
+        "Editing",
+        "NLP",
+        "Productivity"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/nano-pdf",
+      "install_cmd": "awesome-skill-forge install nano-pdf",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "node-inspect-debugger",
+      "description": "Debug Node.js via --inspect + Chrome DevTools Protocol CLI.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "software-development",
+      "tags": [
+        "debugging",
+        "nodejs",
+        "node-inspect",
+        "cdp",
+        "breakpoints",
+        "ui-tui"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/node-inspect-debugger",
+      "install_cmd": "awesome-skill-forge install node-inspect-debugger",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "notion",
+      "description": "Notion API + ntn CLI: pages, databases, markdown, Workers.",
+      "version": "2.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "Notion",
+        "Productivity",
+        "Notes",
+        "Database",
+        "API",
+        "CLI",
+        "Workers"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/notion",
+      "install_cmd": "awesome-skill-forge install notion",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "obsidian",
+      "description": "Read, search, create, and edit notes in the Obsidian vault.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "note-taking",
+      "tags": [],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/obsidian",
+      "install_cmd": "awesome-skill-forge install obsidian",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "ocr-and-documents",
+      "description": "Extract text from PDFs/scans (pymupdf, marker-pdf).",
+      "version": "2.3.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "PDF",
+        "Documents",
+        "Research",
+        "Arxiv",
+        "Text-Extraction",
+        "OCR"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/ocr-and-documents",
+      "install_cmd": "awesome-skill-forge install ocr-and-documents",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "opencode",
+      "description": "Delegate coding to OpenCode CLI (features, PR review).",
+      "version": "1.2.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "autonomous-ai-agents",
+      "tags": [
+        "Coding-Agent",
+        "OpenCode",
+        "Autonomous",
+        "Refactoring",
+        "Code-Review"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/opencode",
+      "install_cmd": "awesome-skill-forge install opencode",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "openhue",
+      "description": "Control Philips Hue lights, scenes, rooms via OpenHue CLI.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "smart-home",
+      "tags": [
+        "Smart-Home",
+        "Hue",
+        "Lights",
+        "IoT",
+        "Automation"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/openhue",
+      "install_cmd": "awesome-skill-forge install openhue",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "p5js",
+      "description": "p5.js sketches: gen art, shaders, interactive, 3D.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "creative-coding",
+        "generative-art",
+        "p5js",
+        "canvas",
+        "interactive",
+        "visualization",
+        "webgl",
+        "shaders",
+        "animation"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/p5js",
+      "install_cmd": "awesome-skill-forge install p5js",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "plan",
+      "description": "Plan mode: write an actionable markdown plan to .hermes/plans/, no execution. Bite-sized tasks, exact paths, complete code.",
+      "version": "2.0.0",
+      "author": "Hermes Agent (writing-craft adapted from obra/superpowers)",
+      "license": "MIT",
+      "category": "software-development",
+      "tags": [
+        "planning",
+        "plan-mode",
+        "implementation",
+        "workflow",
+        "design",
+        "documentation"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/plan",
+      "install_cmd": "awesome-skill-forge install plan",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "polymarket",
+      "description": "Query Polymarket: markets, prices, orderbooks, history.",
+      "version": "1.0.0",
+      "author": "Hermes Agent + Teknium",
+      "license": "MIT",
+      "category": "research",
+      "tags": [
+        "polymarket",
+        "prediction-markets",
+        "market-data",
+        "trading"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/polymarket",
+      "install_cmd": "awesome-skill-forge install polymarket",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "popular-web-designs",
+      "description": "54 real design systems (Stripe, Linear, Vercel) as HTML/CSS.",
+      "version": "1.0.0",
+      "author": "Hermes Agent + Teknium (design systems sourced from VoltAgent/awesome-design-md)",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "design",
+        "css",
+        "html",
+        "ui",
+        "web-development",
+        "design-systems",
+        "templates"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/popular-web-designs",
+      "install_cmd": "awesome-skill-forge install popular-web-designs",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "powerpoint",
+      "description": "Create, read, edit .pptx decks, slides, notes, templates.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "Proprietary. LICENSE.txt has complete terms",
+      "category": "productivity",
+      "tags": [],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/powerpoint",
+      "install_cmd": "awesome-skill-forge install powerpoint",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "pretext",
+      "description": "Use when building creative browser demos with @chenglou/pretext — DOM-free text layout for ASCII art, typographic flow around obstacles, text-as-geometry games, kinetic typography, and text-powered generative art. Produces single-file HTML demos by default.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "creative-coding",
+        "typography",
+        "pretext",
+        "ascii-art",
+        "canvas",
+        "generative",
+        "text-layout",
+        "kinetic-typography"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/pretext",
+      "install_cmd": "awesome-skill-forge install pretext",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "python-debugpy",
+      "description": "Debug Python: pdb REPL + debugpy remote (DAP).",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "software-development",
+      "tags": [
+        "debugging",
+        "python",
+        "pdb",
+        "debugpy",
+        "breakpoints",
+        "dap",
+        "post-mortem"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/python-debugpy",
+      "install_cmd": "awesome-skill-forge install python-debugpy",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "requesting-code-review",
+      "description": "Pre-commit review: security scan, quality gates, auto-fix.",
+      "version": "2.0.0",
+      "author": "Hermes Agent (adapted from obra/superpowers + MorAlekss)",
+      "license": "MIT",
+      "category": "software-development",
+      "tags": [
+        "code-review",
+        "security",
+        "verification",
+        "quality",
+        "pre-commit",
+        "auto-fix"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/requesting-code-review",
+      "install_cmd": "awesome-skill-forge install requesting-code-review",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "research-paper-writing",
+      "description": "Write ML papers for NeurIPS/ICML/ICLR: design→submit.",
+      "version": "1.1.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "research",
+      "tags": [
+        "Research",
+        "Paper Writing",
+        "Experiments",
+        "ML",
+        "AI",
+        "NeurIPS",
+        "ICML",
+        "ICLR",
+        "ACL",
+        "AAAI",
+        "COLM",
+        "LaTeX",
+        "Citations",
+        "Statistical Analysis"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/research-paper-writing",
+      "install_cmd": "awesome-skill-forge install research-paper-writing",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "simplify-code",
+      "description": "Parallel 3-agent cleanup of recent code changes.",
+      "version": "1.0.0",
+      "author": "Hermes Agent (inspired by Claude Code /simplify)",
+      "license": "MIT",
+      "category": "software-development",
+      "tags": [
+        "code-review",
+        "cleanup",
+        "refactor",
+        "delegation",
+        "subagent",
+        "parallel",
+        "simplify"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/simplify-code",
+      "install_cmd": "awesome-skill-forge install simplify-code",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "sketch",
+      "description": "Throwaway HTML mockups: 2-3 design variants to compare.",
+      "version": "1.0.0",
+      "author": "Hermes Agent (adapted from gsd-build/get-shit-done)",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "sketch",
+        "mockup",
+        "design",
+        "ui",
+        "prototype",
+        "html",
+        "variants",
+        "exploration",
+        "wireframe",
+        "comparison"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/sketch",
+      "install_cmd": "awesome-skill-forge install sketch",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "songsee",
+      "description": "Audio spectrograms/features (mel, chroma, MFCC) via CLI.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "media",
+      "tags": [
+        "Audio",
+        "Visualization",
+        "Spectrogram",
+        "Music",
+        "Analysis"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/songsee",
+      "install_cmd": "awesome-skill-forge install songsee",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "songwriting-and-ai-music",
+      "description": "Songwriting craft and Suno AI music prompts.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "songwriting",
+        "music",
+        "suno",
+        "parody",
+        "lyrics",
+        "creative"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/songwriting-and-ai-music",
+      "install_cmd": "awesome-skill-forge install songwriting-and-ai-music",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "spike",
+      "description": "Throwaway experiments to validate an idea before build.",
+      "version": "1.0.0",
+      "author": "Hermes Agent (adapted from gsd-build/get-shit-done)",
+      "license": "MIT",
+      "category": "software-development",
+      "tags": [
+        "spike",
+        "prototype",
+        "experiment",
+        "feasibility",
+        "throwaway",
+        "exploration",
+        "research",
+        "planning",
+        "mvp",
+        "proof-of-concept"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/spike",
+      "install_cmd": "awesome-skill-forge install spike",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "systematic-debugging",
+      "description": "4-phase root cause debugging: understand bugs before fixing.",
+      "version": "1.1.0",
+      "author": "Hermes Agent (adapted from obra/superpowers)",
+      "license": "MIT",
+      "category": "software-development",
+      "tags": [
+        "debugging",
+        "troubleshooting",
+        "problem-solving",
+        "root-cause",
+        "investigation"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/systematic-debugging",
+      "install_cmd": "awesome-skill-forge install systematic-debugging",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "teams-meeting-pipeline",
+      "description": "Operate the Teams meeting summary pipeline via Hermes CLI — summarize meetings, inspect pipeline status, replay jobs, manage Microsoft Graph subscriptions.",
+      "version": "1.1.0",
+      "author": "Hermes Agent + Teknium",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "Teams",
+        "Microsoft Graph",
+        "Meetings",
+        "Productivity",
+        "Operations"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/teams-meeting-pipeline",
+      "install_cmd": "awesome-skill-forge install teams-meeting-pipeline",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "test-driven-development",
+      "description": "TDD: enforce RED-GREEN-REFACTOR, tests before code.",
+      "version": "1.1.0",
+      "author": "Hermes Agent (adapted from obra/superpowers)",
+      "license": "MIT",
+      "category": "software-development",
+      "tags": [
+        "testing",
+        "tdd",
+        "development",
+        "quality",
+        "red-green-refactor"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/test-driven-development",
+      "install_cmd": "awesome-skill-forge install test-driven-development",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "touchdesigner-mcp",
+      "description": "Control a running TouchDesigner instance via twozero MCP — create operators, set parameters, wire connections, execute Python, build real-time visuals. 36 native tools.",
+      "version": "1.1.0",
+      "author": "kshitijk4poor",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "TouchDesigner",
+        "MCP",
+        "twozero",
+        "creative-coding",
+        "real-time-visuals",
+        "generative-art",
+        "audio-reactive",
+        "VJ",
+        "installation",
+        "GLSL"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/touchdesigner-mcp",
+      "install_cmd": "awesome-skill-forge install touchdesigner-mcp",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "xurl",
+      "description": "X/Twitter via xurl CLI: post, search, DM, media, v2 API.",
+      "version": "1.1.1",
+      "author": "xdevplatform + openclaw + Hermes Agent",
+      "license": "MIT",
+      "category": "social-media",
+      "tags": [
+        "twitter",
+        "x",
+        "social-media",
+        "xurl",
+        "official-api"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/xurl",
+      "install_cmd": "awesome-skill-forge install xurl",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "youtube-content",
+      "description": "YouTube transcripts to summaries, threads, blogs.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "media",
+      "tags": [],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "built-in",
+      "source_url": "",
+      "local_path": "skills/youtube-content",
+      "install_cmd": "awesome-skill-forge install youtube-content",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "1password",
+      "description": "Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop app integration, signing in, and reading/injecting secrets for commands.",
+      "version": "1.0.0",
+      "author": "arceus77-7, enhanced by Hermes Agent",
+      "license": "MIT",
+      "category": "security",
+      "tags": [
+        "security",
+        "secrets",
+        "1password",
+        "op",
+        "cli"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/1password",
+      "install_cmd": "awesome-skill-forge install 1password",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "3-statement-model",
+      "description": "Build fully-integrated 3-statement models (IS, BS, CF) in Excel with working capital schedules, D&A roll-forwards, debt schedule, and the plugs that make cash and retained earnings tie. Pairs with excel-author.",
+      "version": "1.0.0",
+      "author": "Anthropic (adapted by Nous Research)",
+      "license": "Apache-2.0",
+      "category": "finance",
+      "tags": [
+        "finance",
+        "three-statement",
+        "income-statement",
+        "balance-sheet",
+        "cash-flow",
+        "excel",
+        "openpyxl",
+        "modeling"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/3-statement-model",
+      "install_cmd": "awesome-skill-forge install 3-statement-model",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "huggingface-accelerate",
+      "description": "Simplest distributed training API. 4 lines to add distributed support to any PyTorch script. Unified API for DeepSpeed/FSDP/Megatron/DDP. Automatic device placement, mixed precision (FP16/BF16/FP8). Interactive config, single launch command. HuggingFace ecosystem standard.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "Distributed Training",
+        "HuggingFace",
+        "Accelerate",
+        "DeepSpeed",
+        "FSDP",
+        "Mixed Precision",
+        "PyTorch",
+        "DDP",
+        "Unified API",
+        "Simple"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/accelerate",
+      "install_cmd": "awesome-skill-forge install huggingface-accelerate",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "adversarial-ux-test",
+      "description": "Roleplay the most difficult, tech-resistant user for your product. Browse the app as that persona, find every UX pain point, then filter complaints through a pragmatism layer to separate real problems from noise. Creates actionable tickets from genuine issues only.",
+      "version": "1.0.0",
+      "author": "Omni @ Comelse",
+      "license": "MIT",
+      "category": "dogfood",
+      "tags": [
+        "qa",
+        "ux",
+        "testing",
+        "adversarial",
+        "dogfood",
+        "personas",
+        "user-testing"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/adversarial-ux-test",
+      "install_cmd": "awesome-skill-forge install adversarial-ux-test",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "agentmail",
+      "description": "Give the agent its own dedicated email inbox via AgentMail. Send, receive, and manage email autonomously using agent-owned email addresses (e.g. hermes-agent@agentmail.to).",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "email",
+      "tags": [
+        "email",
+        "communication",
+        "agentmail",
+        "mcp"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/agentmail",
+      "install_cmd": "awesome-skill-forge install agentmail",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "antigravity-cli",
+      "description": "Operate the Antigravity CLI (agy): plugins, auth, sandbox.",
+      "version": "0.1.0",
+      "author": "Tony Simons (asimons81), Hermes Agent",
+      "license": "MIT",
+      "category": "autonomous-ai-agents",
+      "tags": [
+        "Coding-Agent",
+        "Antigravity",
+        "CLI",
+        "Auth",
+        "Plugins",
+        "Sandbox"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/antigravity-cli",
+      "install_cmd": "awesome-skill-forge install antigravity-cli",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "baoyu-article-illustrator",
+      "description": "Article illustrations: type × style × palette consistency.",
+      "version": "1.57.0",
+      "author": "宝玉 (JimLiu)",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "article-illustration",
+        "creative",
+        "image-generation"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/baoyu-article-illustrator",
+      "install_cmd": "awesome-skill-forge install baoyu-article-illustrator",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "baoyu-comic",
+      "description": "Knowledge comics (知识漫画): educational, biography, tutorial.",
+      "version": "1.56.1",
+      "author": "宝玉 (JimLiu)",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "comic",
+        "knowledge-comic",
+        "creative",
+        "image-generation"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/baoyu-comic",
+      "install_cmd": "awesome-skill-forge install baoyu-comic",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "bioinformatics",
+      "description": "Gateway to 400+ bioinformatics skills from bioSkills and ClawBio. Covers genomics, transcriptomics, single-cell, variant calling, pharmacogenomics, metagenomics, structural biology, and more. Fetches domain-specific reference material on demand.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "research",
+      "tags": [
+        "bioinformatics",
+        "genomics",
+        "sequencing",
+        "biology",
+        "research",
+        "science"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/bioinformatics",
+      "install_cmd": "awesome-skill-forge install bioinformatics",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "blackbox",
+      "description": "Delegate coding tasks to Blackbox AI CLI agent. Multi-model agent with built-in judge that runs tasks through multiple LLMs and picks the best result. Requires the blackbox CLI and a Blackbox AI API key.",
+      "version": "1.0.0",
+      "author": "Hermes Agent (Nous Research)",
+      "license": "MIT",
+      "category": "autonomous-ai-agents",
+      "tags": [
+        "Coding-Agent",
+        "Blackbox",
+        "Multi-Agent",
+        "Judge",
+        "Multi-Model"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/blackbox",
+      "install_cmd": "awesome-skill-forge install blackbox",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "blender-mcp",
+      "description": "Control Blender directly from Hermes via socket connection to the blender-mcp addon. Create 3D objects, materials, animations, and run arbitrary Blender Python (bpy) code. Use when user wants to create or modify anything in Blender.",
+      "version": "1.0.0",
+      "author": "alireza78a",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "blender",
+        "3d",
+        "animation",
+        "modeling",
+        "bpy",
+        "mcp"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/blender-mcp",
+      "install_cmd": "awesome-skill-forge install blender-mcp",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "canvas",
+      "description": "Canvas LMS integration — fetch enrolled courses and assignments using API token authentication.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "Canvas",
+        "LMS",
+        "Education",
+        "Courses",
+        "Assignments"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/canvas",
+      "install_cmd": "awesome-skill-forge install canvas",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "chroma",
+      "description": "Open-source embedding database for AI applications. Store embeddings and metadata, perform vector and full-text search, filter by metadata. Simple 4-function API. Scales from notebooks to production clusters. Use for semantic search, RAG applications, or document retrieval. Best for local development and open-source projects.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "RAG",
+        "Chroma",
+        "Vector Database",
+        "Embeddings",
+        "Semantic Search",
+        "Open Source",
+        "Self-Hosted",
+        "Document Retrieval",
+        "Metadata Filtering"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/chroma",
+      "install_cmd": "awesome-skill-forge install chroma",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "inference-sh-cli",
+      "description": "Run 150+ AI apps via inference.sh CLI (infsh) — image generation, video creation, LLMs, search, 3D, social automation. Uses the terminal tool. Triggers: inference.sh, infsh, ai apps, flux, veo, image generation, video generation, seedream, seedance, tavily",
+      "version": "1.0.0",
+      "author": "okaris",
+      "license": "MIT",
+      "category": "devops",
+      "tags": [
+        "AI",
+        "image-generation",
+        "video",
+        "LLM",
+        "search",
+        "inference",
+        "FLUX",
+        "Veo",
+        "Claude"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/cli",
+      "install_cmd": "awesome-skill-forge install inference-sh-cli",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "clip",
+      "description": "OpenAI's model connecting vision and language. Enables zero-shot image classification, image-text matching, and cross-modal retrieval. Trained on 400M image-text pairs. Use for image search, content moderation, or vision-language tasks without fine-tuning. Best for general-purpose image understanding.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "Multimodal",
+        "CLIP",
+        "Vision-Language",
+        "Zero-Shot",
+        "Image Classification",
+        "OpenAI",
+        "Image Search",
+        "Cross-Modal Retrieval",
+        "Content Moderation"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/clip",
+      "install_cmd": "awesome-skill-forge install clip",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "code-wiki",
+      "description": "Generate wiki docs + Mermaid diagrams for any codebase.",
+      "version": "0.1.0",
+      "author": "Teknium (teknium1), Hermes Agent",
+      "license": "MIT",
+      "category": "software-development",
+      "tags": [
+        "Documentation",
+        "Mermaid",
+        "Architecture",
+        "Diagrams",
+        "Wiki",
+        "Code-Analysis"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/code-wiki",
+      "install_cmd": "awesome-skill-forge install code-wiki",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "comps-analysis",
+      "description": "Build comparable company analysis in Excel — operating metrics, valuation multiples, statistical benchmarking vs peer sets. Pairs with excel-author. Use for public-company valuation, IPO pricing, sector benchmarking, or outlier detection.",
+      "version": "1.0.0",
+      "author": "Anthropic (adapted by Nous Research)",
+      "license": "Apache-2.0",
+      "category": "finance",
+      "tags": [
+        "finance",
+        "valuation",
+        "comps",
+        "excel",
+        "openpyxl",
+        "modeling",
+        "investment-banking"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/comps-analysis",
+      "install_cmd": "awesome-skill-forge install comps-analysis",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "concept-diagrams",
+      "description": "Generate flat, minimal light/dark-aware SVG diagrams as standalone HTML files, using a unified educational visual language with 9 semantic color ramps, sentence-case typography, and automatic dark mode. Best suited for educational and non-software visuals — physics setups, chemistry mechanisms, math curves, physical objects (aircraft, turbines, smartphones, mechanical watches), anatomy, floor plans, cross-sections, narrative journeys (lifecycle of X, process of Y), hub-spoke system integrations (smart city, IoT), and exploded layer views. If a more specialized skill exists for the subject (dedicated software/cloud architecture, hand-drawn sketches, animated explainers, etc.), prefer that — otherwise this skill can also serve as a general-purpose SVG diagram fallback with a clean educational look. Ships with 15 example diagrams.",
+      "version": "0.1.0",
+      "author": "v1k22 (original PR), ported into hermes-agent",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "diagrams",
+        "svg",
+        "visualization",
+        "education",
+        "physics",
+        "chemistry",
+        "engineering"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/concept-diagrams",
+      "install_cmd": "awesome-skill-forge install concept-diagrams",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "ideation",
+      "description": "Generate project ideas via creative constraints.",
+      "version": "1.0.0",
+      "author": "SHL0MS",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "Creative",
+        "Ideation",
+        "Projects",
+        "Brainstorming",
+        "Inspiration"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/creative-ideation",
+      "install_cmd": "awesome-skill-forge install ideation",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "darwinian-evolver",
+      "description": "Evolve prompts/regex/SQL/code with Imbue's evolution loop.",
+      "version": "0.1.0",
+      "author": "Bihruze (Asahi0x), Hermes Agent",
+      "license": "MIT",
+      "category": "research",
+      "tags": [
+        "evolution",
+        "optimization",
+        "prompt-engineering",
+        "research"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/darwinian-evolver",
+      "install_cmd": "awesome-skill-forge install darwinian-evolver",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "dcf-model",
+      "description": "Build institutional-quality DCF valuation models in Excel — revenue projections, FCF build, WACC, terminal value, Bear/Base/Bull scenarios, 5x5 sensitivity tables. Pairs with excel-author. Use for intrinsic-value equity analysis.",
+      "version": "1.0.0",
+      "author": "Anthropic (adapted by Nous Research)",
+      "license": "Apache-2.0",
+      "category": "finance",
+      "tags": [
+        "finance",
+        "valuation",
+        "dcf",
+        "excel",
+        "openpyxl",
+        "modeling",
+        "investment-banking"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/dcf-model",
+      "install_cmd": "awesome-skill-forge install dcf-model",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "docker-management",
+      "description": "Manage Docker containers, images, volumes, networks, and Compose stacks — lifecycle ops, debugging, cleanup, and Dockerfile optimization.",
+      "version": "1.0.0",
+      "author": "sprmn24",
+      "license": "MIT",
+      "category": "devops",
+      "tags": [
+        "docker",
+        "containers",
+        "devops",
+        "infrastructure",
+        "compose",
+        "images",
+        "volumes",
+        "networks",
+        "debugging"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/docker-management",
+      "install_cmd": "awesome-skill-forge install docker-management",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "domain-intel",
+      "description": "Passive domain reconnaissance using Python stdlib. Subdomain discovery, SSL certificate inspection, WHOIS lookups, DNS records, domain availability checks, and bulk multi-domain analysis. No API keys required.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "research",
+      "tags": [],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/domain-intel",
+      "install_cmd": "awesome-skill-forge install domain-intel",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "drug-discovery",
+      "description": ">",
+      "version": "1.0.0",
+      "author": "bennytimz",
+      "license": "MIT",
+      "category": "research",
+      "tags": [
+        "science",
+        "chemistry",
+        "pharmacology",
+        "research",
+        "health"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/drug-discovery",
+      "install_cmd": "awesome-skill-forge install drug-discovery",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "duckduckgo-search",
+      "description": "Free web search via DuckDuckGo — text, news, images, videos. No API key needed. Prefer the `ddgs` CLI when installed; use the Python DDGS library only after verifying that `ddgs` is available in the current runtime.",
+      "version": "1.3.0",
+      "author": "gamedevCloudy",
+      "license": "MIT",
+      "category": "research",
+      "tags": [
+        "search",
+        "duckduckgo",
+        "web-search",
+        "free",
+        "fallback"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/duckduckgo-search",
+      "install_cmd": "awesome-skill-forge install duckduckgo-search",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "evm",
+      "description": "Read-only EVM client: wallets, tokens, gas across 8 chains.",
+      "version": "1.0.0",
+      "author": "Mibayy (@Mibayy), youssefea (@youssefea), ethernet8023 (@ethernet8023), Hermes Agent",
+      "license": "MIT",
+      "category": "blockchain",
+      "tags": [
+        "EVM",
+        "Ethereum",
+        "BNB",
+        "BSC",
+        "Base",
+        "Arbitrum",
+        "Polygon",
+        "Optimism",
+        "Avalanche",
+        "zkSync",
+        "Blockchain",
+        "Crypto",
+        "Web3",
+        "DeFi",
+        "NFT",
+        "ENS",
+        "Whale",
+        "Security"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/evm",
+      "install_cmd": "awesome-skill-forge install evm",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "excel-author",
+      "description": "Build auditable Excel workbooks headless with openpyxl — blue/black/green cell conventions, formulas over hardcodes, named ranges, balance checks, sensitivity tables. Use for financial models, audit outputs, reconciliations.",
+      "version": "1.0.0",
+      "author": "Anthropic (adapted by Nous Research)",
+      "license": "Apache-2.0",
+      "category": "finance",
+      "tags": [
+        "excel",
+        "openpyxl",
+        "finance",
+        "spreadsheet",
+        "modeling"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/excel-author",
+      "install_cmd": "awesome-skill-forge install excel-author",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "faiss",
+      "description": "Facebook's library for efficient similarity search and clustering of dense vectors. Supports billions of vectors, GPU acceleration, and various index types (Flat, IVF, HNSW). Use for fast k-NN search, large-scale vector retrieval, or when you need pure similarity search without metadata. Best for high-performance applications.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "RAG",
+        "FAISS",
+        "Similarity Search",
+        "Vector Search",
+        "Facebook AI",
+        "GPU Acceleration",
+        "Billion-Scale",
+        "K-NN",
+        "HNSW",
+        "High Performance",
+        "Large Scale"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/faiss",
+      "install_cmd": "awesome-skill-forge install faiss",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "fastmcp",
+      "description": "Build, test, inspect, install, and deploy MCP servers with FastMCP in Python. Use when creating a new MCP server, wrapping an API or database as MCP tools, exposing resources or prompts, or preparing a FastMCP server for Claude Code, Cursor, or HTTP deployment.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "mcp",
+      "tags": [
+        "MCP",
+        "FastMCP",
+        "Python",
+        "Tools",
+        "Resources",
+        "Prompts",
+        "Deployment"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/fastmcp",
+      "install_cmd": "awesome-skill-forge install fastmcp",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "fitness-nutrition",
+      "description": ">",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "health",
+      "tags": [
+        "health",
+        "fitness",
+        "nutrition",
+        "gym",
+        "workout",
+        "diet",
+        "exercise"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/fitness-nutrition",
+      "install_cmd": "awesome-skill-forge install fitness-nutrition",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "optimizing-attention-flash",
+      "description": "Optimizes transformer attention with Flash Attention for 2-4x speedup and 10-20x memory reduction. Use when training/running transformers with long sequences (>512 tokens), encountering GPU memory issues with attention, or need faster inference. Supports PyTorch native SDPA, flash-attn library, H100 FP8, and sliding window attention.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "Optimization",
+        "Flash Attention",
+        "Attention Optimization",
+        "Memory Efficiency",
+        "Speed Optimization",
+        "Long Context",
+        "PyTorch",
+        "SDPA",
+        "H100",
+        "FP8",
+        "Transformers"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/flash-attention",
+      "install_cmd": "awesome-skill-forge install optimizing-attention-flash",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "gitnexus-explorer",
+      "description": "Index a codebase with GitNexus and serve an interactive knowledge graph via web UI + Cloudflare tunnel.",
+      "version": "1.0.0",
+      "author": "Hermes Agent + Teknium",
+      "license": "MIT",
+      "category": "research",
+      "tags": [
+        "gitnexus",
+        "code-intelligence",
+        "knowledge-graph",
+        "visualization"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/gitnexus-explorer",
+      "install_cmd": "awesome-skill-forge install gitnexus-explorer",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "grok",
+      "description": "Delegate coding to xAI Grok Build CLI (features, PRs).",
+      "version": "0.1.0",
+      "author": "Matt Maximo (MattMaximo), Hermes Agent",
+      "license": "MIT",
+      "category": "autonomous-ai-agents",
+      "tags": [
+        "Coding-Agent",
+        "Grok",
+        "xAI",
+        "Code-Review",
+        "Refactoring",
+        "Automation"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/grok",
+      "install_cmd": "awesome-skill-forge install grok",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "guidance",
+      "description": "Control LLM output with regex and grammars, guarantee valid JSON/XML/code generation, enforce structured formats, and build multi-step workflows with Guidance - Microsoft Research's constrained generation framework",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "Prompt Engineering",
+        "Guidance",
+        "Constrained Generation",
+        "Structured Output",
+        "JSON Validation",
+        "Grammar",
+        "Microsoft Research",
+        "Format Enforcement",
+        "Multi-Step Workflows"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/guidance",
+      "install_cmd": "awesome-skill-forge install guidance",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "here.now",
+      "description": "Publish static sites to {slug}.here.now and store private files in cloud Drives for agent-to-agent handoff.",
+      "version": "1.15.3",
+      "author": "here.now",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "here.now",
+        "herenow",
+        "publish",
+        "deploy",
+        "hosting",
+        "static-site",
+        "web",
+        "share",
+        "URL",
+        "drive",
+        "storage"
+      ],
+      "platforms": [
+        "macos",
+        "linux"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/here-now",
+      "install_cmd": "awesome-skill-forge install here.now",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "hermes-s6-container-supervision",
+      "description": "Modify, debug, or extend the s6-overlay supervision tree inside the Hermes Agent Docker image — adding new services, debugging profile gateways, understanding the Architecture B main-program pattern.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "devops",
+      "tags": [
+        "docker",
+        "s6",
+        "supervision",
+        "gateway",
+        "profiles"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/hermes-s6-container-supervision",
+      "install_cmd": "awesome-skill-forge install hermes-s6-container-supervision",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "honcho",
+      "description": "Configure and use Honcho memory with Hermes -- cross-session user modeling, multi-profile peer isolation, observation config, dialectic reasoning, session summaries, and context budget enforcement. Use when setting up Honcho, troubleshooting memory, managing profiles with Honcho peers, or tuning observation, recall, and dialectic settings.",
+      "version": "2.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "autonomous-ai-agents",
+      "tags": [
+        "Honcho",
+        "Memory",
+        "Profiles",
+        "Observation",
+        "Dialectic",
+        "User-Modeling",
+        "Session-Summary"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/honcho",
+      "install_cmd": "awesome-skill-forge install honcho",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "huggingface-tokenizers",
+      "description": "Fast tokenizers optimized for research and production. Rust-based implementation tokenizes 1GB in <20 seconds. Supports BPE, WordPiece, and Unigram algorithms. Train custom vocabularies, track alignments, handle padding/truncation. Integrates seamlessly with transformers. Use when you need high-performance tokenization or custom tokenizer training.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "Tokenization",
+        "HuggingFace",
+        "BPE",
+        "WordPiece",
+        "Unigram",
+        "Fast Tokenization",
+        "Rust",
+        "Custom Tokenizer",
+        "Alignment Tracking",
+        "Production"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/huggingface-tokenizers",
+      "install_cmd": "awesome-skill-forge install huggingface-tokenizers",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "hyperframes",
+      "description": "Create HTML-based video compositions, animated title cards, social overlays, captioned talking-head videos, audio-reactive visuals, and shader transitions using HyperFrames. HTML is the source of truth for video. Use when the user wants a rendered MP4/WebM from an HTML composition, wants to animate text/logos/charts over media, needs captions synced to audio, wants TTS narration, or wants to convert a website into a video.",
+      "version": "1.0.0",
+      "author": "heygen-com",
+      "license": "Apache-2.0",
+      "category": "creative",
+      "tags": [
+        "creative",
+        "video",
+        "animation",
+        "html",
+        "gsap",
+        "motion-graphics"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/hyperframes",
+      "install_cmd": "awesome-skill-forge install hyperframes",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "hyperliquid",
+      "description": "Hyperliquid market data, account history, trade review.",
+      "version": "0.1.0",
+      "author": "Hugo Sequier (Hugo-SEQUIER), Hermes Agent",
+      "license": "MIT",
+      "category": "blockchain",
+      "tags": [
+        "Hyperliquid",
+        "Blockchain",
+        "Crypto",
+        "Trading",
+        "Perpetuals",
+        "Spot",
+        "DeFi"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/hyperliquid",
+      "install_cmd": "awesome-skill-forge install hyperliquid",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "instructor",
+      "description": "Extract structured data from LLM responses with Pydantic validation, retry failed extractions automatically, parse complex JSON with type safety, and stream partial results with Instructor - battle-tested structured output library",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "Prompt Engineering",
+        "Instructor",
+        "Structured Output",
+        "Pydantic",
+        "Data Extraction",
+        "JSON Parsing",
+        "Type Safety",
+        "Validation",
+        "Streaming",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/instructor",
+      "install_cmd": "awesome-skill-forge install instructor",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "kanban-video-orchestrator",
+      "description": "Plan, set up, and monitor a multi-agent video production pipeline backed by Hermes Kanban. Use when the user wants to make ANY video — narrative film, product/marketing, music video, explainer, ASCII/terminal art, abstract/generative loop, comic, 3D, real-time/installation — and the work warrants decomposition into specialized profiles (writer, designer, animator, renderer, voice, editor, etc.) coordinated through a kanban board. Performs adaptive discovery to scope the brief, designs an appropriate team for the requested style, generates the setup script that creates Hermes profiles + initial kanban task, then helps monitor execution and intervene when tasks stall or fail. Routes scenes to whichever Hermes rendering / audio / design skill fits each beat (`ascii-video`, `manim-video`, `p5js`, `comfyui`, `touchdesigner-mcp`, `blender-mcp`, `pixel-art`, `baoyu-comic`, `claude-design`, `excalidraw`, `songsee`, `heartmula`, …) plus external APIs for TTS, image-gen, and image-to-video as needed.",
+      "version": "1.0.0",
+      "author": [
+        "SHL0MS",
+        "alt-glitch"
+      ],
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "video",
+        "kanban",
+        "multi-agent",
+        "orchestration",
+        "production-pipeline"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/kanban-video-orchestrator",
+      "install_cmd": "awesome-skill-forge install kanban-video-orchestrator",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "lambda-labs-gpu-cloud",
+      "description": "Reserved and on-demand GPU cloud instances for ML training and inference. Use when you need dedicated GPU instances with simple SSH access, persistent filesystems, or high-performance multi-node clusters for large-scale training.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "Infrastructure",
+        "GPU Cloud",
+        "Training",
+        "Inference",
+        "Lambda Labs"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/lambda-labs",
+      "install_cmd": "awesome-skill-forge install lambda-labs-gpu-cloud",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "lbo-model",
+      "description": "Build leveraged buyout models in Excel — sources & uses, debt schedule, cash sweep, exit multiple, IRR/MOIC sensitivity. Pairs with excel-author. Use for PE screening, sponsor-case valuation, or illustrative LBO in a pitch.",
+      "version": "1.0.0",
+      "author": "Anthropic (adapted by Nous Research)",
+      "license": "Apache-2.0",
+      "category": "finance",
+      "tags": [
+        "finance",
+        "valuation",
+        "lbo",
+        "private-equity",
+        "excel",
+        "openpyxl",
+        "modeling"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/lbo-model",
+      "install_cmd": "awesome-skill-forge install lbo-model",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "llava",
+      "description": "Large Language and Vision Assistant. Enables visual instruction tuning and image-based conversations. Combines CLIP vision encoder with Vicuna/LLaMA language models. Supports multi-turn image chat, visual question answering, and instruction following. Use for vision-language chatbots or image understanding tasks. Best for conversational image analysis.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "LLaVA",
+        "Vision-Language",
+        "Multimodal",
+        "Visual Question Answering",
+        "Image Chat",
+        "CLIP",
+        "Vicuna",
+        "Conversational AI",
+        "Instruction Tuning",
+        "VQA"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/llava",
+      "install_cmd": "awesome-skill-forge install llava",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "mcporter",
+      "description": "Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio), including ad-hoc servers, config edits, and CLI/type generation.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "mcp",
+      "tags": [
+        "MCP",
+        "Tools",
+        "API",
+        "Integrations",
+        "Interop"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/mcporter",
+      "install_cmd": "awesome-skill-forge install mcporter",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "meme-generation",
+      "description": "Generate real meme images by picking a template and overlaying text with Pillow. Produces actual .png meme files.",
+      "version": "2.0.0",
+      "author": "adanaleycio",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "creative",
+        "memes",
+        "humor",
+        "images"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/meme-generation",
+      "install_cmd": "awesome-skill-forge install meme-generation",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "memento-flashcards",
+      "description": ">-",
+      "version": "1.0.0",
+      "author": "Memento AI",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "Education",
+        "Flashcards",
+        "Spaced Repetition",
+        "Learning",
+        "Quiz",
+        "YouTube"
+      ],
+      "platforms": [
+        "macos",
+        "linux"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/memento-flashcards",
+      "install_cmd": "awesome-skill-forge install memento-flashcards",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "merger-model",
+      "description": "Build accretion/dilution (merger) models in Excel — pro-forma P&L, synergies, financing mix, EPS impact. Pairs with excel-author. Use for M&A pitches, board materials, or deal evaluation.",
+      "version": "1.0.0",
+      "author": "Anthropic (adapted by Nous Research)",
+      "license": "Apache-2.0",
+      "category": "finance",
+      "tags": [
+        "finance",
+        "m-and-a",
+        "merger",
+        "accretion-dilution",
+        "excel",
+        "openpyxl",
+        "modeling",
+        "investment-banking"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/merger-model",
+      "install_cmd": "awesome-skill-forge install merger-model",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "minecraft-modpack-server",
+      "description": "Host modded Minecraft servers (CurseForge, Modrinth).",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "gaming",
+      "tags": [
+        "minecraft",
+        "gaming",
+        "server",
+        "neoforge",
+        "forge",
+        "modpack"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/minecraft-modpack-server",
+      "install_cmd": "awesome-skill-forge install minecraft-modpack-server",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "modal-serverless-gpu",
+      "description": "Serverless GPU cloud platform for running ML workloads. Use when you need on-demand GPU access without infrastructure management, deploying ML models as APIs, or running batch jobs with automatic scaling.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "Infrastructure",
+        "Serverless",
+        "GPU",
+        "Cloud",
+        "Deployment",
+        "Modal"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/modal",
+      "install_cmd": "awesome-skill-forge install modal-serverless-gpu",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "nemo-curator",
+      "description": "GPU-accelerated data curation for LLM training. Supports text/image/video/audio. Features fuzzy deduplication (16× faster), quality filtering (30+ heuristics), semantic deduplication, PII redaction, NSFW detection. Scales across GPUs with RAPIDS. Use for preparing high-quality training datasets, cleaning web data, or deduplicating large corpora.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "Data Processing",
+        "NeMo Curator",
+        "Data Curation",
+        "GPU Acceleration",
+        "Deduplication",
+        "Quality Filtering",
+        "NVIDIA",
+        "RAPIDS",
+        "PII Redaction",
+        "Multimodal",
+        "LLM Training Data"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/nemo-curator",
+      "install_cmd": "awesome-skill-forge install nemo-curator",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "neuroskill-bci",
+      "description": ">",
+      "version": "1.0.0",
+      "author": "Hermes Agent + Nous Research",
+      "license": "MIT",
+      "category": "health",
+      "tags": [
+        "BCI",
+        "neurofeedback",
+        "health",
+        "focus",
+        "EEG",
+        "cognitive-state",
+        "biometrics",
+        "neuroskill"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/neuroskill-bci",
+      "install_cmd": "awesome-skill-forge install neuroskill-bci",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "one-three-one-rule",
+      "description": ">",
+      "version": "1.0.0",
+      "author": "Willard Moore",
+      "license": "MIT",
+      "category": "communication",
+      "tags": [
+        "communication",
+        "decision-making",
+        "proposals",
+        "trade-offs"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/one-three-one-rule",
+      "install_cmd": "awesome-skill-forge install one-three-one-rule",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "openclaw-migration",
+      "description": "Migrate a user's OpenClaw customization footprint into Hermes Agent. Imports Hermes-compatible memories, SOUL.md, command allowlists, user skills, and selected workspace assets from ~/.openclaw, then reports exactly what could not be migrated and why.",
+      "version": "1.0.0",
+      "author": "Hermes Agent (Nous Research)",
+      "license": "MIT",
+      "category": "migration",
+      "tags": [
+        "Migration",
+        "OpenClaw",
+        "Hermes",
+        "Memory",
+        "Persona",
+        "Import"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/openclaw-migration",
+      "install_cmd": "awesome-skill-forge install openclaw-migration",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "openhands",
+      "description": "Delegate coding to OpenHands CLI (model-agnostic, LiteLLM).",
+      "version": "0.1.0",
+      "author": "Tim Koepsel (xzessmedia), Hermes Agent",
+      "license": "MIT",
+      "category": "autonomous-ai-agents",
+      "tags": [
+        "Coding-Agent",
+        "OpenHands",
+        "Model-Agnostic",
+        "LiteLLM"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/openhands",
+      "install_cmd": "awesome-skill-forge install openhands",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "osint-investigation",
+      "description": "Public-records OSINT investigation framework — SEC EDGAR filings, USAspending contracts, Senate lobbying, OFAC sanctions, ICIJ offshore leaks, NYC property records (ACRIS), OpenCorporates registries, CourtListener court records, Wayback Machine archives, Wikipedia + Wikidata, GDELT news monitoring. Entity resolution across sources, cross-link analysis, timing correlation, evidence chains. Python stdlib only.",
+      "version": "0.1.0",
+      "author": "Hermes Agent (adapted from ShinMegamiBoson/OpenPlanter, MIT)",
+      "license": "MIT",
+      "category": "research",
+      "tags": [
+        "osint",
+        "investigation",
+        "public-records",
+        "sec",
+        "sanctions",
+        "corporate-registry",
+        "property",
+        "courts",
+        "due-diligence",
+        "journalism"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/osint-investigation",
+      "install_cmd": "awesome-skill-forge install osint-investigation",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "oss-forensics",
+      "description": "|",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "security",
+      "tags": [],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/oss-forensics",
+      "install_cmd": "awesome-skill-forge install oss-forensics",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "parallel-cli",
+      "description": "Optional vendor skill for Parallel CLI — agent-native web search, extraction, deep research, enrichment, FindAll, and monitoring. Prefer JSON output and non-interactive flows.",
+      "version": "1.1.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "research",
+      "tags": [
+        "Research",
+        "Web",
+        "Search",
+        "Deep-Research",
+        "Enrichment",
+        "CLI"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/parallel-cli",
+      "install_cmd": "awesome-skill-forge install parallel-cli",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "peft-fine-tuning",
+      "description": "Parameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods. Use when fine-tuning large models (7B-70B) with limited GPU memory, when you need to train <1% of parameters with minimal accuracy loss, or for multi-adapter serving. HuggingFace's official library integrated with transformers ecosystem.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "Fine-Tuning",
+        "PEFT",
+        "LoRA",
+        "QLoRA",
+        "Parameter-Efficient",
+        "Adapters",
+        "Low-Rank",
+        "Memory Optimization",
+        "Multi-Adapter"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/peft",
+      "install_cmd": "awesome-skill-forge install peft-fine-tuning",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "pinecone",
+      "description": "Managed vector database for production AI applications. Fully managed, auto-scaling, with hybrid search (dense + sparse), metadata filtering, and namespaces. Low latency (<100ms p95). Use for production RAG, recommendation systems, or semantic search at scale. Best for serverless, managed infrastructure.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "RAG",
+        "Pinecone",
+        "Vector Database",
+        "Managed Service",
+        "Serverless",
+        "Hybrid Search",
+        "Production",
+        "Auto-Scaling",
+        "Low Latency",
+        "Recommendations"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/pinecone",
+      "install_cmd": "awesome-skill-forge install pinecone",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "pinggy-tunnel",
+      "description": "Zero-install localhost tunnels over SSH via Pinggy.",
+      "version": "0.1.0",
+      "author": "Teknium (teknium1), Hermes Agent",
+      "license": "MIT",
+      "category": "devops",
+      "tags": [
+        "Pinggy",
+        "Tunnel",
+        "Networking",
+        "SSH",
+        "Webhook",
+        "Localhost"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/pinggy-tunnel",
+      "install_cmd": "awesome-skill-forge install pinggy-tunnel",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "pixel-art",
+      "description": "Pixel art w/ era palettes (NES, Game Boy, PICO-8).",
+      "version": "2.0.0",
+      "author": "dodo-reach",
+      "license": "MIT",
+      "category": "creative",
+      "tags": [
+        "creative",
+        "pixel-art",
+        "arcade",
+        "snes",
+        "nes",
+        "gameboy",
+        "retro",
+        "image",
+        "video"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/pixel-art",
+      "install_cmd": "awesome-skill-forge install pixel-art",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "pokemon-player",
+      "description": "Play Pokemon via headless emulator + RAM reads.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "gaming",
+      "tags": [
+        "gaming",
+        "pokemon",
+        "emulator",
+        "pyboy",
+        "gameplay",
+        "gameboy"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/pokemon-player",
+      "install_cmd": "awesome-skill-forge install pokemon-player",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "pptx-author",
+      "description": "Build PowerPoint decks headless with python-pptx. Pairs with excel-author for model-backed decks where every number traces to a workbook cell. Use for pitch decks, IC memos, earnings notes.",
+      "version": "1.0.0",
+      "author": "Anthropic (adapted by Nous Research)",
+      "license": "Apache-2.0",
+      "category": "finance",
+      "tags": [
+        "powerpoint",
+        "pptx",
+        "python-pptx",
+        "presentation",
+        "finance"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/pptx-author",
+      "install_cmd": "awesome-skill-forge install pptx-author",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "pytorch-fsdp",
+      "description": "Expert guidance for Fully Sharded Data Parallel training with PyTorch FSDP - parameter sharding, mixed precision, CPU offloading, FSDP2",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "Distributed Training",
+        "PyTorch",
+        "FSDP",
+        "Data Parallel",
+        "Sharding",
+        "Mixed Precision",
+        "CPU Offloading",
+        "FSDP2",
+        "Large-Scale Training"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/pytorch-fsdp",
+      "install_cmd": "awesome-skill-forge install pytorch-fsdp",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "pytorch-lightning",
+      "description": "High-level PyTorch framework with Trainer class, automatic distributed training (DDP/FSDP/DeepSpeed), callbacks system, and minimal boilerplate. Scales from laptop to supercomputer with same code. Use when you want clean training loops with built-in best practices.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "PyTorch Lightning",
+        "Training Framework",
+        "Distributed Training",
+        "DDP",
+        "FSDP",
+        "DeepSpeed",
+        "High-Level API",
+        "Callbacks",
+        "Best Practices",
+        "Scalable"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/pytorch-lightning",
+      "install_cmd": "awesome-skill-forge install pytorch-lightning",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "qdrant-vector-search",
+      "description": "High-performance vector similarity search engine for RAG and semantic search. Use when building production RAG systems requiring fast nearest neighbor search, hybrid search with filtering, or scalable vector storage with Rust-powered performance.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "RAG",
+        "Vector Search",
+        "Qdrant",
+        "Semantic Search",
+        "Embeddings",
+        "Similarity Search",
+        "HNSW",
+        "Production",
+        "Distributed"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/qdrant",
+      "install_cmd": "awesome-skill-forge install qdrant-vector-search",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "qmd",
+      "description": "Search personal knowledge bases, notes, docs, and meeting transcripts locally using qmd — a hybrid retrieval engine with BM25, vector search, and LLM reranking. Supports CLI and MCP integration.",
+      "version": "1.0.0",
+      "author": "Hermes Agent + Teknium",
+      "license": "MIT",
+      "category": "research",
+      "tags": [
+        "Search",
+        "Knowledge-Base",
+        "RAG",
+        "Notes",
+        "MCP",
+        "Local-AI"
+      ],
+      "platforms": [
+        "macos",
+        "linux"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/qmd",
+      "install_cmd": "awesome-skill-forge install qmd",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "rest-graphql-debug",
+      "description": "Debug REST/GraphQL APIs: status codes, auth, schemas, repro.",
+      "version": "1.2.0",
+      "author": "eren-karakus0",
+      "license": "MIT",
+      "category": "software-development",
+      "tags": [
+        "api",
+        "rest",
+        "graphql",
+        "http",
+        "debugging",
+        "testing",
+        "curl",
+        "integration"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/rest-graphql-debug",
+      "install_cmd": "awesome-skill-forge install rest-graphql-debug",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "sparse-autoencoder-training",
+      "description": "Provides guidance for training and analyzing Sparse Autoencoders (SAEs) using SAELens to decompose neural network activations into interpretable features. Use when discovering interpretable features, analyzing superposition, or studying monosemantic representations in language models.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "Sparse Autoencoders",
+        "SAE",
+        "Mechanistic Interpretability",
+        "Feature Discovery",
+        "Superposition"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/saelens",
+      "install_cmd": "awesome-skill-forge install sparse-autoencoder-training",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "scrapling",
+      "description": "Web scraping with Scrapling - HTTP fetching, stealth browser automation, Cloudflare bypass, and spider crawling via CLI and Python.",
+      "version": "1.0.0",
+      "author": "FEUAZUR",
+      "license": "MIT",
+      "category": "research",
+      "tags": [
+        "Web Scraping",
+        "Browser",
+        "Cloudflare",
+        "Stealth",
+        "Crawling",
+        "Spider"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/scrapling",
+      "install_cmd": "awesome-skill-forge install scrapling",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "searxng-search",
+      "description": "Free meta-search via SearXNG — aggregates results from 70+ search engines. Self-hosted or use a public instance. No API key needed. Falls back automatically when the web search toolset is unavailable.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "research",
+      "tags": [
+        "search",
+        "searxng",
+        "meta-search",
+        "self-hosted",
+        "free",
+        "fallback"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/searxng-search",
+      "install_cmd": "awesome-skill-forge install searxng-search",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "sherlock",
+      "description": "OSINT username search across 400+ social networks. Hunt down social media accounts by username.",
+      "version": "1.0.0",
+      "author": "unmodeled-tyler",
+      "license": "MIT",
+      "category": "security",
+      "tags": [
+        "osint",
+        "security",
+        "username",
+        "social-media",
+        "reconnaissance"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/sherlock",
+      "install_cmd": "awesome-skill-forge install sherlock",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "shop-app",
+      "description": "Shop.app: product search, order tracking, returns, reorder.",
+      "version": "0.0.28",
+      "author": "community",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "Shopping",
+        "E-commerce",
+        "Shop.app",
+        "Products",
+        "Orders",
+        "Returns"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/shop-app",
+      "install_cmd": "awesome-skill-forge install shop-app",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "shopify",
+      "description": "Shopify Admin & Storefront GraphQL APIs via curl. Products, orders, customers, inventory, metafields.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "Shopify",
+        "E-commerce",
+        "Commerce",
+        "API",
+        "GraphQL"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/shopify",
+      "install_cmd": "awesome-skill-forge install shopify",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "simpo-training",
+      "description": "Simple Preference Optimization for LLM alignment. Reference-free alternative to DPO with better performance (+6.4 points on AlpacaEval 2.0). No reference model needed, more efficient than DPO. Use for preference alignment when want simpler, faster training than DPO/PPO.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "Post-Training",
+        "SimPO",
+        "Preference Optimization",
+        "Alignment",
+        "DPO Alternative",
+        "Reference-Free",
+        "LLM Alignment",
+        "Efficient Training"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/simpo",
+      "install_cmd": "awesome-skill-forge install simpo-training",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "siyuan",
+      "description": "SiYuan Note API for searching, reading, creating, and managing blocks and documents in a self-hosted knowledge base via curl.",
+      "version": "1.0.0",
+      "author": "FEUAZUR",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "SiYuan",
+        "Notes",
+        "Knowledge Base",
+        "PKM",
+        "API"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/siyuan",
+      "install_cmd": "awesome-skill-forge install siyuan",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "slime-rl-training",
+      "description": "Provides guidance for LLM post-training with RL using slime, a Megatron+SGLang framework. Use when training GLM models, implementing custom data generation workflows, or needing tight Megatron-LM integration for RL scaling.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "Reinforcement Learning",
+        "Megatron-LM",
+        "SGLang",
+        "GRPO",
+        "Post-Training",
+        "GLM"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/slime",
+      "install_cmd": "awesome-skill-forge install slime-rl-training",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "solana",
+      "description": "Query Solana blockchain data with USD pricing — wallet balances, token portfolios with values, transaction details, NFTs, whale detection, and live network stats. Uses Solana RPC + CoinGecko. No API key required.",
+      "version": "0.2.0",
+      "author": "Deniz Alagoz (gizdusum), enhanced by Hermes Agent",
+      "license": "MIT",
+      "category": "blockchain",
+      "tags": [
+        "Solana",
+        "Blockchain",
+        "Crypto",
+        "Web3",
+        "RPC",
+        "DeFi",
+        "NFT"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/solana",
+      "install_cmd": "awesome-skill-forge install solana",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "stable-diffusion-image-generation",
+      "description": "State-of-the-art text-to-image generation with Stable Diffusion models via HuggingFace Diffusers. Use when generating images from text prompts, performing image-to-image translation, inpainting, or building custom diffusion pipelines.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "Image Generation",
+        "Stable Diffusion",
+        "Diffusers",
+        "Text-to-Image",
+        "Multimodal",
+        "Computer Vision"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/stable-diffusion",
+      "install_cmd": "awesome-skill-forge install stable-diffusion-image-generation",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "stocks",
+      "description": "Stock quotes, history, search, compare, crypto via Yahoo.",
+      "version": "0.1.0",
+      "author": "Mibay (Mibayy), Hermes Agent",
+      "license": "MIT",
+      "category": "finance",
+      "tags": [
+        "Stocks",
+        "Finance",
+        "Market",
+        "Crypto",
+        "Investing"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/stocks",
+      "install_cmd": "awesome-skill-forge install stocks",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "subagent-driven-development",
+      "description": "Execute plans via delegate_task subagents (2-stage review).",
+      "version": "1.1.0",
+      "author": "Hermes Agent (adapted from obra/superpowers)",
+      "license": "MIT",
+      "category": "software-development",
+      "tags": [
+        "delegation",
+        "subagent",
+        "implementation",
+        "workflow",
+        "parallel"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/subagent-driven-development",
+      "install_cmd": "awesome-skill-forge install subagent-driven-development",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "telephony",
+      "description": "Give Hermes phone capabilities without core tool changes. Provision and persist a Twilio number, send and receive SMS/MMS, make direct calls, and place AI-driven outbound calls through Bland.ai or Vapi.",
+      "version": "1.0.0",
+      "author": "Nous Research",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "telephony",
+        "phone",
+        "sms",
+        "mms",
+        "voice",
+        "twilio",
+        "bland.ai",
+        "vapi",
+        "calling",
+        "texting"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/telephony",
+      "install_cmd": "awesome-skill-forge install telephony",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "tensorrt-llm",
+      "description": "Optimizes LLM inference with NVIDIA TensorRT for maximum throughput and lowest latency. Use for production deployment on NVIDIA GPUs (A100/H100), when you need 10-100x faster inference than PyTorch, or for serving models with quantization (FP8/INT4), in-flight batching, and multi-GPU scaling.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "Inference Serving",
+        "TensorRT-LLM",
+        "NVIDIA",
+        "Inference Optimization",
+        "High Throughput",
+        "Low Latency",
+        "Production",
+        "FP8",
+        "INT4",
+        "In-Flight Batching",
+        "Multi-GPU"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/tensorrt-llm",
+      "install_cmd": "awesome-skill-forge install tensorrt-llm",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "distributed-llm-pretraining-torchtitan",
+      "description": "Provides PyTorch-native distributed LLM pretraining using torchtitan with 4D parallelism (FSDP2, TP, PP, CP). Use when pretraining Llama 3.1, DeepSeek V3, or custom models at scale from 8 to 512+ GPUs with Float8, torch.compile, and distributed checkpointing.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "Model Architecture",
+        "Distributed Training",
+        "TorchTitan",
+        "FSDP2",
+        "Tensor Parallel",
+        "Pipeline Parallel",
+        "Context Parallel",
+        "Float8",
+        "Llama",
+        "Pretraining"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/torchtitan",
+      "install_cmd": "awesome-skill-forge install distributed-llm-pretraining-torchtitan",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "watchers",
+      "description": "Poll RSS, JSON APIs, and GitHub with watermark dedup.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "devops",
+      "tags": [
+        "cron",
+        "polling",
+        "rss",
+        "github",
+        "http",
+        "automation",
+        "monitoring"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/watchers",
+      "install_cmd": "awesome-skill-forge install watchers",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "web-pentest",
+      "description": "|",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "category": "security",
+      "tags": [],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/web-pentest",
+      "install_cmd": "awesome-skill-forge install web-pentest",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "whisper",
+      "description": "OpenAI's general-purpose speech recognition model. Supports 99 languages, transcription, translation to English, and language identification. Six model sizes from tiny (39M params) to large (1550M params). Use for speech-to-text, podcast transcription, or multilingual audio processing. Best for robust, multilingual ASR.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "category": "mlops",
+      "tags": [
+        "Whisper",
+        "Speech Recognition",
+        "ASR",
+        "Multimodal",
+        "Multilingual",
+        "OpenAI",
+        "Speech-To-Text",
+        "Transcription",
+        "Translation",
+        "Audio Processing"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "optional",
+      "source_url": "",
+      "local_path": "optional-skills/whisper",
+      "install_cmd": "awesome-skill-forge install whisper",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "ai-mate",
+      "description": "Persistent AI companion with long-term memory, project context awareness, and multi-session continuity across any LLM.",
+      "version": "1.0.0",
+      "author": "Lord1Egypt",
+      "license": "MIT",
+      "category": "ai-agents",
+      "tags": [
+        "memory",
+        "companion",
+        "context",
+        "multi-session",
+        "persistence",
+        "llm",
+        "agent",
+        "productivity"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "lord1egypt",
+      "source_url": "https://github.com/Lord1Egypt/ai-mate",
+      "local_path": "lord1egypt-skills/ai-mate",
+      "install_cmd": "awesome-skill-forge install ai-mate",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "awesome-prompt-forge",
+      "description": "2,592 curated AI system prompts from Claude, ChatGPT, Cursor, v0, Devin, Grok, and more.",
+      "version": "1.0.3",
+      "author": "Lord1Egypt",
+      "license": "MIT",
+      "category": "ai-agents",
+      "tags": [
+        "prompts",
+        "system-prompts",
+        "claude",
+        "chatgpt",
+        "cursor",
+        "v0",
+        "devin",
+        "grok",
+        "python",
+        "npm"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "lord1egypt",
+      "source_url": "https://github.com/Lord1Egypt/awesome-prompt-forge",
+      "local_path": "lord1egypt-skills/awesome-prompt-forge",
+      "install_cmd": "awesome-skill-forge install awesome-prompt-forge",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "ethsmith",
+      "description": "Ethereum smart contract development environment: Foundry + Ganache + LevelDB in one tool.",
+      "version": "1.0.0",
+      "author": "Lord1Egypt",
+      "license": "MIT",
+      "category": "blockchain",
+      "tags": [
+        "ethereum",
+        "solidity",
+        "foundry",
+        "ganache",
+        "web3",
+        "smart-contracts",
+        "leveldb",
+        "npm"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "lord1egypt",
+      "source_url": "https://github.com/Lord1Egypt/ethsmith",
+      "local_path": "lord1egypt-skills/ethsmith",
+      "install_cmd": "awesome-skill-forge install ethsmith",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "pokegypt",
+      "description": "Run and manage a PokeGypt TFS 1.2 Pokemon OT private server — SQLite backend, account manager, Linux/Windows.",
+      "version": "1.0.0",
+      "author": "Lord1Egypt",
+      "license": "MIT",
+      "category": "gaming",
+      "tags": [
+        "pokemon",
+        "tfs",
+        "private-server",
+        "sqlite",
+        "game-server",
+        "otserver",
+        "pokegypt"
+      ],
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "lord1egypt",
+      "source_url": "https://github.com/Lord1Egypt/PokeGypt",
+      "local_path": "lord1egypt-skills/pokegypt",
+      "install_cmd": "awesome-skill-forge install pokegypt",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "rpc-radar",
+      "description": "Inspect, benchmark, and monitor Web3 RPC endpoints — latency checks, method support, chain detection, and health scoring.",
+      "version": "1.0.0",
+      "author": "Lord1Egypt",
+      "license": "MIT",
+      "category": "blockchain",
+      "tags": [
+        "web3",
+        "rpc",
+        "ethereum",
+        "evm",
+        "monitoring",
+        "latency",
+        "health-check",
+        "endpoints",
+        "blockchain"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "lord1egypt",
+      "source_url": "https://github.com/Lord1Egypt/rpc-radar",
+      "local_path": "lord1egypt-skills/rpc-radar",
+      "install_cmd": "awesome-skill-forge install rpc-radar",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "skillforge",
+      "description": "Lazy-loading Python/JS package with 539 AI agent skills for Claude, Gemini, and Scientific agents.",
+      "version": "1.0.5",
+      "author": "Lord1Egypt",
+      "license": "MIT",
+      "category": "ai-agents",
+      "tags": [
+        "skills",
+        "ai-agents",
+        "claude",
+        "gemini",
+        "scientific",
+        "lazy-loading",
+        "python",
+        "npm"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "lord1egypt",
+      "source_url": "https://github.com/Lord1Egypt/ai-skillforge",
+      "local_path": "lord1egypt-skills/skillforge",
+      "install_cmd": "awesome-skill-forge install skillforge",
+      "registry": "awesome-skill-forge"
+    },
+    {
+      "name": "thothterm",
+      "description": "GPU-accelerated terminal emulator with AI-native and Web3-native features built on wgpu+WASM.",
+      "version": "1.0.0",
+      "author": "Lord1Egypt",
+      "license": "MIT",
+      "category": "software-dev",
+      "tags": [
+        "terminal",
+        "gpu",
+        "wgpu",
+        "wasm",
+        "rust",
+        "ai",
+        "web3",
+        "emulator"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "compatible": [
+        "claude-code",
+        "openai-agents",
+        "hermes-agent",
+        "autogen",
+        "langchain",
+        "any-llm"
+      ],
+      "source": "lord1egypt",
+      "source_url": "https://github.com/Lord1Egypt/ThothTerm",
+      "local_path": "lord1egypt-skills/thothterm",
+      "install_cmd": "awesome-skill-forge install thothterm",
+      "registry": "awesome-skill-forge"
+    }
+  ]
+}
