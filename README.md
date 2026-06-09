@@ -31,7 +31,7 @@ npm install awesome-skill-forge
 ## Usage
 
 ```python
-from awesome_skill_forge import load, search, stats
+from forge_skills import load, search, stats
 
 # Search for skills
 results = search("github", limit=5)
