@@ -22,16 +22,16 @@
 
 ```bash
 # Python
-pip install forge-skills
+pip install awesome-skill-forge
 
 # Node.js
-npm install forge-skills
+npm install awesome-skill-forge
 ```
 
 ## Usage
 
 ```python
-from forge_skills import load, search, stats
+from awesome_skill_forge import load, search, stats
 
 # Search for skills
 results = search("github", limit=5)
@@ -47,7 +47,7 @@ print(stats())
 ```
 
 ```javascript
-const { load, search, stats } = require('forge-skills')
+const { load, search, stats } = require('awesome-skill-forge')
 
 const results = search('security', { limit: 5 })
 results.forEach(s => console.log(s.name, '-', s.description))
@@ -72,8 +72,8 @@ skills/          Official built-in skills (SKILL.md format)
 lord1egypt-skills/ Lord1Egypt custom skills
 optional-skills/ Optional skill collection
 data/            Source registry data
-python/          PyPI package source (forge-skills)
-js/              npm package source (forge-skills)
+python/          PyPI package source (awesome-skill-forge)
+js/              npm package source (awesome-skill-forge)
 tools/           Registry tools (fetch, build, sync)
 ```
 
