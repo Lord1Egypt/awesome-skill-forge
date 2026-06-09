@@ -1,16 +1,21 @@
 'use strict'
 /**
- * forge-skills: 90,000+ universal AI agent skills.
+ * awesome-skill-forge: 90,000+ universal AI agent skills.
  * Works with Claude Code, OpenAI Agents, Hermes, AutoGen, LangChain, any LLM.
  *
  * @example
- * const { load, search, listSkills, categories } = require('forge-skills')
- * const skill = load('github-pr-workflow')
+ * const { load, search, listSkills, categories } = require('awesome-skill-forge')
+ * const skill = await load('github-pr-workflow')
+ * console.log(skill.prompt)
+ *
+ * // Fetch community skill content on demand (requires internet)
+ * const skill = await load('aso-playbook', { fetch: true })
  * console.log(skill.prompt)
  */
 
 const fs = require('fs')
 const path = require('path')
+const { fetchContent } = require('./fetcher')
 
 // Resolve index.json — works installed or from project root
 let INDEX_PATH = path.join(__dirname, '..', 'data', 'index.json')
@@ -69,25 +74,25 @@ function readSkillContent (meta) {
  */
 
 /**
- * Load a skill by name.
+ * Load a skill by name. Returns a Promise when fetch:true, otherwise synchronous.
  * @param {string} name - Skill name (case-insensitive)
  * @param {Object} [opts]
  * @param {string} [opts.category] - Filter by category
  * @param {string} [opts.source] - Filter by source
- * @returns {Skill}
+ * @param {boolean} [opts.fetch] - Fetch content from source API if not embedded (requires internet)
+ * @returns {Skill|Promise<Skill>}
  */
 function load (name, opts = {}) {
   const index = loadIndex()
   const nameLower = name.toLowerCase()
-  const { category, source } = opts
+  const { category, source, fetch: doFetch } = opts
 
   for (const meta of index.skills) {
     if (meta.name.toLowerCase() !== nameLower) continue
     if (category && meta.category?.toLowerCase() !== category.toLowerCase()) continue
     if (source && meta.source?.toLowerCase() !== source.toLowerCase()) continue
 
-    const content = meta.hasContent ? readSkillContent(meta) : (meta.description || '')
-    return {
+    const makeSkill = (content) => ({
       name: meta.name,
       description: meta.description || '',
       category: meta.category || '',
@@ -103,7 +108,17 @@ function load (name, opts = {}) {
       localPath: meta.localPath || '',
       prompt: content,
       toString () { return this.prompt }
+    })
+
+    if (meta.hasContent) {
+      return makeSkill(readSkillContent(meta))
     }
+
+    if (doFetch) {
+      return fetchContent(meta).then(fetched => makeSkill(fetched || meta.description || ''))
+    }
+
+    return makeSkill(meta.description || '')
   }
 
   throw new Error(`Skill not found: '${name}'`)

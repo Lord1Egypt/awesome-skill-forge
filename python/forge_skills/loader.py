@@ -8,6 +8,8 @@ import os
 import re
 from typing import Optional, List, Dict, Any
 
+from .fetcher import fetch_content as _fetch_content
+
 # Path resolution — works installed or from source
 _PACKAGE_DIR = os.path.dirname(os.path.abspath(__file__))
 _ROOT = os.path.dirname(os.path.dirname(_PACKAGE_DIR))  # project root when dev
@@ -75,7 +77,12 @@ def _read_skill_content(meta: Dict) -> str:
     return meta.get("description", "")
 
 
-def load(name: str, category: Optional[str] = None, source: Optional[str] = None) -> Skill:
+def load(
+    name: str,
+    category: Optional[str] = None,
+    source: Optional[str] = None,
+    fetch: bool = False,
+) -> "Skill":
     """
     Load a skill by name. Returns a Skill object with full content.
 
@@ -83,6 +90,8 @@ def load(name: str, category: Optional[str] = None, source: Optional[str] = None
         name: Skill name (exact match, case-insensitive)
         category: Optional category filter (e.g. "ai-agents", "productivity")
         source: Optional source filter (e.g. "built-in", "ClawHub", "lord1egypt")
+        fetch: If True, fetch content from source API for community skills
+               that don't have embedded content (requires internet).
 
     Returns:
         Skill object
@@ -101,7 +110,13 @@ def load(name: str, category: Optional[str] = None, source: Optional[str] = None
         if source and meta.get("source", "").lower() != source.lower():
             continue
 
-        content = _read_skill_content(meta) if meta.get("hasContent") else meta.get("description", "")
+        if meta.get("hasContent"):
+            content = _read_skill_content(meta)
+        elif fetch:
+            content = _fetch_content(meta) or meta.get("description", "")
+        else:
+            content = meta.get("description", "")
+
         return Skill(meta, content)
 
     raise KeyError(f"Skill not found: '{name}'")
