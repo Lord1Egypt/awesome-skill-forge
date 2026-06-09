@@ -35,3 +35,13 @@ jobs:
           optional=$(find optional-skills -name SKILL.md | wc -l)
           custom=$(find lord1egypt-skills -name SKILL.md | wc -l)
           echo "Built-in: $built | Optional: $optional | Custom: $custom | Total: $((built + optional + custom))"
+
+      - name: Run Python tests
+        run: pip install pytest && pytest tests/test_python.py -v
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run JS tests
+        run: node tests/test_js.js
