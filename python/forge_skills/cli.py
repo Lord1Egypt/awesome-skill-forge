@@ -72,8 +72,11 @@ def cmd_list(args):
 
 
 def cmd_load(args):
+    do_fetch = getattr(args, "fetch", False)
+    if do_fetch:
+        print(f"  Fetching '{args.name}' from source API...")
     try:
-        skill = load(args.name, category=args.category, source=args.source)
+        skill = load(args.name, category=args.category, source=args.source, fetch=do_fetch)
     except KeyError as e:
         print(f"Error: {e}")
         sys.exit(1)
@@ -140,12 +143,15 @@ def main():
     p_list.add_argument("--limit", "-n", type=int, default=50)
     p_list.add_argument("--content-only", action="store_true")
 
-    # load
-    p_load = sub.add_parser("load", help="Load and display a skill")
-    p_load.add_argument("name", help="Skill name")
-    p_load.add_argument("--category", "-c")
-    p_load.add_argument("--source", "-s")
-    p_load.add_argument("--json", action="store_true", help="Output as JSON")
+    # load / show (aliases)
+    for cmd_name in ("load", "show"):
+        p_load = sub.add_parser(cmd_name, help="Load and display a skill by name")
+        p_load.add_argument("name", help="Skill name")
+        p_load.add_argument("--category", "-c")
+        p_load.add_argument("--source", "-s")
+        p_load.add_argument("--fetch", "-f", action="store_true",
+                            help="Fetch content from source API (for community skills)")
+        p_load.add_argument("--json", action="store_true", help="Output as JSON")
 
     # sources
     sub.add_parser("sources", help="Show skill counts by source registry")
@@ -160,6 +166,7 @@ def main():
         "search": cmd_search,
         "list": cmd_list,
         "load": cmd_load,
+        "show": cmd_load,
         "sources": cmd_sources,
         "categories": cmd_categories,
     }
