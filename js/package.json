@@ -1,0 +1,45 @@
+{
+  "name": "forge-skills",
+  "version": "1.0.1",
+  "description": "90,000+ universal AI agent skills — Claude Code, OpenAI Agents, Hermes, AutoGen, LangChain, any LLM",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "bin": {
+    "forge": "bin/forge.js",
+    "forge-skills": "bin/forge.js"
+  },
+  "scripts": {
+    "test": "node test/basic.js"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "skills",
+    "claude",
+    "claude-code",
+    "openai",
+    "llm",
+    "hermes",
+    "langchain",
+    "autogen",
+    "prompt",
+    "skill-forge"
+  ],
+  "author": "Lord1Egypt <akim.221992@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lord1Egypt/awesome-skill-forge.git"
+  },
+  "homepage": "https://github.com/Lord1Egypt/awesome-skill-forge",
+  "files": [
+    "src/",
+    "bin/",
+    "data/index.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14"
+  }
+}

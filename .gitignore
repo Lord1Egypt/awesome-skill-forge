@@ -1,0 +1,22 @@
+# Python build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Node
+node_modules/
+*.tgz
+
+# Root index is a stale duplicate — canonical copy is python/forge_skills/data/index.json
+/index.json
+
+# Env / editor
+.env
+.venv/
+venv/
+.DS_Store
+*.swp

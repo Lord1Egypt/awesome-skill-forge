@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "forge-skills"
+version = "1.0.1"
+description = "90,000+ universal AI agent skills — works with Claude Code, OpenAI Agents, Hermes, AutoGen, LangChain, and any LLM"
+readme = "../README.md"
+license = { text = "MIT" }
+authors = [{ name = "Lord1Egypt", email = "akim.221992@gmail.com" }]
+keywords = ["ai", "agents", "skills", "claude", "openai", "llm", "hermes", "langchain", "autogen", "prompt"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Intended Audience :: Developers",
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Lord1Egypt/awesome-skill-forge"
+Repository = "https://github.com/Lord1Egypt/awesome-skill-forge"
+"Bug Tracker" = "https://github.com/Lord1Egypt/awesome-skill-forge/issues"
+
+[project.scripts]
+forge = "forge_skills.cli:main"
+forge-skills = "forge_skills.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "." }
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["forge_skills*"]
+
+[tool.setuptools.package-data]
+forge_skills = ["data/index.json"]
