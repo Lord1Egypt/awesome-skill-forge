@@ -81,12 +81,12 @@ description: |
 ## 飞书 API 配置
 
 ```python
-app_id = "cli_a929129e4278dced"
-app_secret = "usgK70hkHYBTQTtqMUFUMeXPPQDp35CE"
+app_id = "YOUR_LARK_APP_ID"
+app_secret = "YOUR_LARK_APP_SECRET"
 
 # 文件夹 token
-root_folder = "U4p7fPrW1lmQzedgT9rcenKQnbh"
-reading_folder = "C5NZflqNJlCK0EdaTQ2cmhVdnJg"
+root_folder = "YOUR_ROOT_FOLDER_TOKEN"
+reading_folder = "YOUR_READING_FOLDER_TOKEN"
 
 # 分类文件夹 token（从 reading_folder 子文件夹获取）
 # 投资商业、AI科技、汽车新能源、家庭教育、其他

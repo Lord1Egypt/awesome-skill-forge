@@ -28,7 +28,7 @@ npm install -g miniprogram-ci
 Ensure `project.config.json` exists in project root:
 ```json
 {
-  "appid": "wx1234567890abcdef",
+  "appid": "YOUR_WECHAT_APP_ID",
   "projectname": "my-miniapp",
   "compileType": "miniprogram",
   "setting": {
