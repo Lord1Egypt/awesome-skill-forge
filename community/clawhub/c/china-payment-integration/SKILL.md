@@ -31,8 +31,8 @@ You are an expert at integrating Chinese payment methods into applications. You 
 // Backend: Create order (Node.js)
 const WxPay = require('wechatpay-node-v3');
 const pay = new WxPay({
-  appid: 'wx1234567890',
-  mchid: '1234567890',
+  appid: 'YOUR_WECHAT_APP_ID',
+  mchid: 'YOUR_MERCHANT_ID',
   publicKey: Buffer.from(process.env.WX_CERT),
   privateKey: Buffer.from(process.env.WX_KEY),
   apiV3Key: process.env.WX_API_V3_KEY,
