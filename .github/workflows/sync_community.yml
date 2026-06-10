@@ -1,0 +1,50 @@
+name: Sync Community Skills
+
+on:
+  schedule:
+    - cron: '0 4 * * 1'  # Every Monday at 4am UTC (after official sync)
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Sync community metadata (ClawHub + LobeHub)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/sync_community.py
+
+      - name: Rebuild index
+        run: python tools/build_index.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet index.json && echo "changed=false" >> $GITHUB_OUTPUT \
+            || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit updated index
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.json
+          git commit -m "chore: sync community skills $(date +%Y-%m-%d)"
+          git push
+
+      - name: Trigger skill-explorer rebuild
+        if: steps.changes.outputs.changed == 'true'
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: Lord1Egypt/skill-explorer
+          event-type: rebuild-meta
